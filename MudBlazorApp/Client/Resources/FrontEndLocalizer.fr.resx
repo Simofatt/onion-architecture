@@ -1,0 +1,921 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Absence due to death of a loved one" xml:space="preserve">
+    <value>Absence pour cause de décès d'un proche</value>
+  </data>
+  <data name="Absence for birth or adoption" xml:space="preserve">
+    <value>Absence pour naissance ou adoption</value>
+  </data>
+  <data name="Absence for family events" xml:space="preserve">
+    <value>Absence pour événements familiaux</value>
+  </data>
+  <data name="Absence for incapacity" xml:space="preserve">
+    <value>Absence pour incapacité</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>Compte</value>
+  </data>
+  <data name="Account type" xml:space="preserve">
+    <value>Type de compte</value>
+  </data>
+  <data name="Accounts" xml:space="preserve">
+    <value>Comptes</value>
+  </data>
+  <data name="Acquired leave" xml:space="preserve">
+    <value>Congé acquis</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Actif</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="Add note" xml:space="preserve">
+    <value>Ajouter une note</value>
+  </data>
+  <data name="Add relationship" xml:space="preserve">
+    <value>Ajouter une relation</value>
+  </data>
+  <data name="Adress" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="An error has accured while saving the default report!" xml:space="preserve">
+    <value>Une erreur s'est produite lors de l'enregistrement du rapport par défaut !</value>
+  </data>
+  <data name="An error has accured!" xml:space="preserve">
+    <value>une erreur est survenue</value>
+  </data>
+  <data name="Aquired" xml:space="preserve">
+    <value>Acquis</value>
+  </data>
+  <data name="Are you sure you want to close the exercise!" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir fermer l'exercice!</value>
+  </data>
+  <data name="Are you sure you want to decline this leave?" xml:space="preserve">
+    <value>Voulez-vous vraiment refuser ce congé ?</value>
+  </data>
+  <data name="Are you sure you want to delete this attribute ?" xml:space="preserve">
+    <value>Voulez-vous vraiment supprimer cet attribut ?</value>
+  </data>
+  <data name="Are you sure you want to delete this note?" xml:space="preserve">
+    <value>Voulez-vous vraiment supprimer cette note?</value>
+  </data>
+  <data name="Are you sure you want to delete this pay plan :" xml:space="preserve">
+    <value>Voulez-vous vraiment supprimer ce plan de paie :</value>
+  </data>
+  <data name="Are you sure you want to delete this periodicity ?" xml:space="preserve">
+    <value>Voulez-vous vraiment supprimer cette périodicité ?</value>
+  </data>
+  <data name="Are you sure you want to delete this relationship?" xml:space="preserve">
+    <value>Voulez-vous vraiment supprimer cette relation?</value>
+  </data>
+  <data name="At least 8 characters" xml:space="preserve">
+    <value>Au moins 8 caractères</value>
+  </data>
+  <data name="At least one capital letter (A-Z)" xml:space="preserve">
+    <value>Au moins une lettre majuscule (A-Z)</value>
+  </data>
+  <data name="At least one digit (0-9)" xml:space="preserve">
+    <value>Au moins un chiffre (0-9)</value>
+  </data>
+  <data name="At least one lowercase letter (a-z)" xml:space="preserve">
+    <value>Au moins une lettre minuscule (a-z)</value>
+  </data>
+  <data name="Attributes" xml:space="preserve">
+    <value>Attributs</value>
+  </data>
+  <data name="Base element" xml:space="preserve">
+    <value>Élément de base</value>
+  </data>
+  <data name="Base salary account" xml:space="preserve">
+    <value>Compte salaire de base</value>
+  </data>
+  <data name="Basic Information" xml:space="preserve">
+    <value>Informations basiques</value>
+  </data>
+  <data name="Bereavement leave" xml:space="preserve">
+    <value>Congé de deuil</value>
+  </data>
+  <data name="Birth Date" xml:space="preserve">
+    <value>Date de naissance</value>
+  </data>
+  <data name="Bonus" xml:space="preserve">
+    <value>Prime</value>
+  </data>
+  <data name="Calculate" xml:space="preserve">
+    <value>Calculer</value>
+  </data>
+  <data name="Calculate the period" xml:space="preserve">
+    <value>Calculer la periode</value>
+  </data>
+  <data name="Calculated" xml:space="preserve">
+    <value>Calculé</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Cannot delete periodicity while being used by an active period!" xml:space="preserve">
+    <value>Impossible de supprimer la périodicité alors qu'elle est utilisée par une période active !</value>
+  </data>
+  <data name="Cannot modify periodicity while being used by an active period!" xml:space="preserve">
+    <value>Impossible de modifier la périodicité tout en étant utilisé par une période active !</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Catégorie</value>
+  </data>
+  <data name="Change company" xml:space="preserve">
+    <value>Changer la société</value>
+  </data>
+  <data name="Change location" xml:space="preserve">
+    <value>Changer l'emplacement</value>
+  </data>
+  <data name="Change password" xml:space="preserve">
+    <value>Changer le mot de passe</value>
+  </data>
+  <data name="Change plan" xml:space="preserve">
+    <value>Changer de plan</value>
+  </data>
+  <data name="Child" xml:space="preserve">
+    <value>Fils(le)</value>
+  </data>
+  <data name="Choose the document's new location" xml:space="preserve">
+    <value>Choisir le nouvel emplacement du document</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Ville</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Clôturer</value>
+  </data>
+  <data name="Close exercise" xml:space="preserve">
+    <value>Clôturer l'exercice</value>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>Cloturée</value>
+  </data>
+  <data name="Companies" xml:space="preserve">
+    <value>Sociétés</value>
+  </data>
+  <data name="Company parameters :" xml:space="preserve">
+    <value>Paramètres de société</value>
+  </data>
+  <data name="Compensation" xml:space="preserve">
+    <value>Indemnité</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirmer</value>
+  </data>
+  <data name="Confirm Password" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="Contracts history" xml:space="preserve">
+    <value>Historique des contrats</value>
+  </data>
+  <data name="Contribution" xml:space="preserve">
+    <value>Cotisation</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Pays</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Créer</value>
+  </data>
+  <data name="Cumule" xml:space="preserve">
+    <value>Accumulated</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>Courant</value>
+  </data>
+  <data name="Current contract" xml:space="preserve">
+    <value>Contrat actuel</value>
+  </data>
+  <data name="Current password" xml:space="preserve">
+    <value>Mot de passe actuel</value>
+  </data>
+  <data name="Deduction" xml:space="preserve">
+    <value>Prélèvement</value>
+  </data>
+  <data name="Default company" xml:space="preserve">
+    <value>Société par défaut</value>
+  </data>
+  <data name="Default report" xml:space="preserve">
+    <value>Rapport par défaut</value>
+  </data>
+  <data name="Default report model" xml:space="preserve">
+    <value>Modèle de rapport par défaut</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Delete Confirmation" xml:space="preserve">
+    <value>Confirmation de la suppression</value>
+  </data>
+  <data name="Dependents" xml:space="preserve">
+    <value>Personnes à charge</value>
+  </data>
+  <data name="Divorced" xml:space="preserve">
+    <value>Divorcé(e)</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Télécharger</value>
+  </data>
+  <data name="E-mail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Effective Date" xml:space="preserve">
+    <value>Date d'effet</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Email Confirmation" xml:space="preserve">
+    <value>Confirmation de l'émail</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Employés</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Activé</value>
+  </data>
+  <data name="End date" xml:space="preserve">
+    <value>Date fin</value>
+  </data>
+  <data name="Enter email for password reset" xml:space="preserve">
+    <value>Enter email for password reset</value>
+  </data>
+  <data name="Entity" xml:space="preserve">
+    <value>Entité</value>
+  </data>
+  <data name="Entry type" xml:space="preserve">
+    <value>Type d'entrée</value>
+  </data>
+  <data name="Environment" xml:space="preserve">
+    <value>Environnement</value>
+  </data>
+  <data name="Exercise" xml:space="preserve">
+    <value>Exercice</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="Expiration Date" xml:space="preserve">
+    <value>Date d'expiration</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Family" xml:space="preserve">
+    <value>Famille</value>
+  </data>
+  <data name="Family and medical leave" xml:space="preserve">
+    <value>Congé familial et médical</value>
+  </data>
+  <data name="Family situation" xml:space="preserve">
+    <value>Situation familiale</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>Femme</value>
+  </data>
+  <data name="Filtered Users exported" xml:space="preserve">
+    <value>Filtered Users exported</value>
+  </data>
+  <data name="First Name" xml:space="preserve">
+    <value>Prénom</value>
+  </data>
+  <data name="Folder name" xml:space="preserve">
+    <value>Nom du dossier</value>
+  </data>
+  <data name="Forgot password?" xml:space="preserve">
+    <value>Mot de passe oublié?</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="Full time" xml:space="preserve">
+    <value>Temps plein</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Sexe</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>Générer </value>
+  </data>
+  <data name="Generate a Pay Book" xml:space="preserve">
+    <value>Générer le livre de paie</value>
+  </data>
+  <data name="GoHome" xml:space="preserve">
+    <value>Rentrer chez soi!</value>
+  </data>
+  <data name="Gross" xml:space="preserve">
+    <value>Bruts</value>
+  </data>
+  <data name="Hire date" xml:space="preserve">
+    <value>Date d'embauche</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Historique</value>
+  </data>
+  <data name="Holiday" xml:space="preserve">
+    <value>Congé</value>
+  </data>
+  <data name="Holiday leave" xml:space="preserve">
+    <value>Congé de vacances</value>
+  </data>
+  <data name="HOLIDY" xml:space="preserve">
+    <value>CONGÉ</value>
+  </data>
+  <data name="Identity record" xml:space="preserve">
+    <value>Fiche d'identité</value>
+  </data>
+  <data name="In charge" xml:space="preserve">
+    <value>À charge</value>
+  </data>
+  <data name="Internship" xml:space="preserve">
+    <value>Stage</value>
+  </data>
+  <data name="Issuing Country" xml:space="preserve">
+    <value>Pays émetteur</value>
+  </data>
+  <data name="Issuing Date" xml:space="preserve">
+    <value>Date d'émission</value>
+  </data>
+  <data name="Job" xml:space="preserve">
+    <value>Travail</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Intitulé</value>
+  </data>
+  <data name="Last Name" xml:space="preserve">
+    <value>Nom de famille</value>
+  </data>
+  <data name="Launch" xml:space="preserve">
+    <value>Lancer</value>
+  </data>
+  <data name="Leave" xml:space="preserve">
+    <value>Congé</value>
+  </data>
+  <data name="Leave approved!" xml:space="preserve">
+    <value>Congé approuvé!</value>
+  </data>
+  <data name="Leave balance" xml:space="preserve">
+    <value>Solde congé</value>
+  </data>
+  <data name="Leave denied!" xml:space="preserve">
+    <value>Congé refusé !</value>
+  </data>
+  <data name="Leave requests" xml:space="preserve">
+    <value>Demandes de congé</value>
+  </data>
+  <data name="Leave taken" xml:space="preserve">
+    <value>Congé pris</value>
+  </data>
+  <data name="Legislation" xml:space="preserve">
+    <value>Législation</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>Homme</value>
+  </data>
+  <data name="Manage Roles" xml:space="preserve">
+    <value>Gérer les rôles</value>
+  </data>
+  <data name="Manage Users" xml:space="preserve">
+    <value>Gérer les utilisateurs</value>
+  </data>
+  <data name="Marital status" xml:space="preserve">
+    <value>Statut matrimonial</value>
+  </data>
+  <data name="Marriage leave" xml:space="preserve">
+    <value>Congé de mariage</value>
+  </data>
+  <data name="Married" xml:space="preserve">
+    <value>Marié(e)</value>
+  </data>
+  <data name="Maternity leave" xml:space="preserve">
+    <value>Congé maternité</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>La page que vous recherchez n'existe pas.</value>
+  </data>
+  <data name="Middle Name" xml:space="preserve">
+    <value>Deuxième prénom</value>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="Name is required" xml:space="preserve">
+    <value>Le Nom est obligatoire!</value>
+  </data>
+  <data name="Nationality" xml:space="preserve">
+    <value>Nationalité</value>
+  </data>
+  <data name="Net payable" xml:space="preserve">
+    <value>Net a payer</value>
+  </data>
+  <data name="Net payable account" xml:space="preserve">
+    <value>Compte net à payer</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Nouvelle</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Suivant</value>
+  </data>
+  <data name="No Allowed Actions" xml:space="preserve">
+    <value>Aucune action autorisée</value>
+  </data>
+  <data name="No contract was found." xml:space="preserve">
+    <value>Aucun contrat n'a été trouvé.</value>
+  </data>
+  <data name="No current period!" xml:space="preserve">
+    <value>Aucune periode actuelle!</value>
+  </data>
+  <data name="No history to show." xml:space="preserve">
+    <value>Pas d'historique à afficher.</value>
+  </data>
+  <data name="No previous details." xml:space="preserve">
+    <value>Pas de détails précédents.</value>
+  </data>
+  <data name="No visa information entries have been added." xml:space="preserve">
+    <value>Aucune entrée d'informations de visa n'a été ajoutée.</value>
+  </data>
+  <data name="Note deleted successfully" xml:space="preserve">
+    <value>Note supprimée avec succès</value>
+  </data>
+  <data name="Note saved successfully" xml:space="preserve">
+    <value>Note enregistrée avec succès</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Numero</value>
+  </data>
+  <data name="On site" xml:space="preserve">
+    <value>Sur site</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Ouvrir</value>
+  </data>
+  <data name="Open exercise" xml:space="preserve">
+    <value>Ouvrir l'exercice</value>
+  </data>
+  <data name="Paid leave" xml:space="preserve">
+    <value>Congé payé</value>
+  </data>
+  <data name="Part Time" xml:space="preserve">
+    <value>Temps partiel</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="Password confirmation" xml:space="preserve">
+    <value>Confirmation du mot de passe                                                                                                                                                          </value>
+  </data>
+  <data name="Password must contain :" xml:space="preserve">
+    <value>Le mot de passe doit contenir :</value>
+  </data>
+  <data name="Paternity leave" xml:space="preserve">
+    <value>Congé paternité</value>
+  </data>
+  <data name="Pay Book" xml:space="preserve">
+    <value>Livre de paie</value>
+  </data>
+  <data name="Pay plan :" xml:space="preserve">
+    <value>Plan de paie : </value>
+  </data>
+  <data name="Pay plans" xml:space="preserve">
+    <value>Plans de paie</value>
+  </data>
+  <data name="Pay simulation" xml:space="preserve">
+    <value>Simulation de paie</value>
+  </data>
+  <data name="Pay variables" xml:space="preserve">
+    <value>Variables de paie</value>
+  </data>
+  <data name="Pays" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Payslip" xml:space="preserve">
+    <value>Fiche de paie</value>
+  </data>
+  <data name="Payslips" xml:space="preserve">
+    <value>Bulletins de paie</value>
+  </data>
+  <data name="PDF Viewer" xml:space="preserve">
+    <value>Visionneuse PDF</value>
+  </data>
+  <data name="Period :" xml:space="preserve">
+    <value>Period : </value>
+  </data>
+  <data name="Period calculated successfully!" xml:space="preserve">
+    <value>Période calculée avec succès !</value>
+  </data>
+  <data name="Periodicities" xml:space="preserve">
+    <value>Périodicités</value>
+  </data>
+  <data name="Periodicity" xml:space="preserve">
+    <value>Périodicité</value>
+  </data>
+  <data name="Periods" xml:space="preserve">
+    <value>Périodes</value>
+  </data>
+  <data name="Please choose a new pay plan :" xml:space="preserve">
+    <value>Veuillez choisir un nouveau plan de paie :</value>
+  </data>
+  <data name="Please configure a report template!" xml:space="preserve">
+    <value>Veuillez configurer un modèle de rapport!</value>
+  </data>
+  <data name="Please enter variable counts!" xml:space="preserve">
+    <value>Veuillez saisir les comptes des variables !</value>
+  </data>
+  <data name="Please select a pay variables model!" xml:space="preserve">
+    <value>Veuillez sélectionner un modèle de variables de paie !</value>
+  </data>
+  <data name="Please set the base salary account in company settings" xml:space="preserve">
+    <value>Veuillez définir le compte du salaire de base dans les paramètres de société</value>
+  </data>
+  <data name="Please set the net payable account in company settings" xml:space="preserve">
+    <value>Veuillez définir le compte du net à payer dans les paramètres de société</value>
+  </data>
+  <data name="Postal code" xml:space="preserve">
+    <value>Code Postal</value>
+  </data>
+  <data name="Pre-established file" xml:space="preserve">
+    <value>Fichier préétabli</value>
+  </data>
+  <data name="Presence" xml:space="preserve">
+    <value>Présence</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Précédent</value>
+  </data>
+  <data name="Previous value" xml:space="preserve">
+    <value>Valeur Antérieure</value>
+  </data>
+  <data name="ProcessingCalc" xml:space="preserve">
+    <value>Calcul en cours...</value>
+  </data>
+  <data name="ProcessingClosing" xml:space="preserve">
+    <value>Clôture en cours...</value>
+  </data>
+  <data name="Profile picture" xml:space="preserve">
+    <value>Photo de profil</value>
+  </data>
+  <data name="Project Page" xml:space="preserve">
+    <value>Project Page</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Taux</value>
+  </data>
+  <data name="Recalculate" xml:space="preserve">
+    <value>Recalculer</value>
+  </data>
+  <data name="Recovery of working time" xml:space="preserve">
+    <value>Récupération du temps de travail</value>
+  </data>
+  <data name="Regenerate" xml:space="preserve">
+    <value>Regénérer</value>
+  </data>
+  <data name="Register new employee" xml:space="preserve">
+    <value>Enregistrer un nouveau employé</value>
+  </data>
+  <data name="Register New User" xml:space="preserve">
+    <value>Enregistrer un nouveau utilisateur</value>
+  </data>
+  <data name="Registration number" xml:space="preserve">
+    <value>Matricule</value>
+  </data>
+  <data name="Registration number already exists!" xml:space="preserve">
+    <value>Matricule existe déjà !</value>
+  </data>
+  <data name="Registration number type" xml:space="preserve">
+    <value>Type de matricule</value>
+  </data>
+  <data name="Relationship deleted succefully" xml:space="preserve">
+    <value>Relation supprimée avec succès</value>
+  </data>
+  <data name="Relationship saved successfully" xml:space="preserve">
+    <value>Relation enregistrée avec succès</value>
+  </data>
+  <data name="Relationship Type" xml:space="preserve">
+    <value>Type de relation</value>
+  </data>
+  <data name="Relationships" xml:space="preserve">
+    <value>Relations</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Rafraîchir</value>
+  </data>
+  <data name="Remote" xml:space="preserve">
+    <value>Télétravail</value>
+  </data>
+  <data name="Report file" xml:space="preserve">
+    <value>Fichier de rapport</value>
+  </data>
+  <data name="Reporting configuration" xml:space="preserve">
+    <value>Paramétrage des rapports</value>
+  </data>
+  <data name="Reporting server is down!" xml:space="preserve">
+    <value>Le serveur de rapports est en panne !</value>
+  </data>
+  <data name="Request a leave" xml:space="preserve">
+    <value>Demander un congé</value>
+  </data>
+  <data name="Reset password" xml:space="preserve">
+    <value>Reset password</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="Save changes" xml:space="preserve">
+    <value>Enregistrer les changements</value>
+  </data>
+  <data name="Saved successfully!" xml:space="preserve">
+    <value>Enregistré avec succès!</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Recherche</value>
+  </data>
+  <data name="Search For Users" xml:space="preserve">
+    <value>Rechercher des utilisateurs</value>
+  </data>
+  <data name="Select a dafault company" xml:space="preserve">
+    <value>Sélectionnez une entreprise par défaut</value>
+  </data>
+  <data name="Select a folder:" xml:space="preserve">
+    <value>Sélectionnez un dossier</value>
+  </data>
+  <data name="Select a legislation" xml:space="preserve">
+    <value>Sélectionnez une législation</value>
+  </data>
+  <data name="Select accounts" xml:space="preserve">
+    <value>Selectionnez les comptes</value>
+  </data>
+  <data name="Select status" xml:space="preserve">
+    <value>Sélectionnez le statut</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="Show all" xml:space="preserve">
+    <value>Afficher tout</value>
+  </data>
+  <data name="Sick leave" xml:space="preserve">
+    <value>Congé de maladie</value>
+  </data>
+  <data name="Sign in" xml:space="preserve">
+    <value>Se connecter</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>Célibataire</value>
+  </data>
+  <data name="Spouse" xml:space="preserve">
+    <value>Époux(se)</value>
+  </data>
+  <data name="SSN" xml:space="preserve">
+    <value>CNSS</value>
+  </data>
+  <data name="Start date" xml:space="preserve">
+    <value>Date de début</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>État</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Statut</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Support Me" xml:space="preserve">
+    <value>Support Me!</value>
+  </data>
+  <data name="Taken" xml:space="preserve">
+    <value>Pris</value>
+  </data>
+  <data name="The company you are trying to access is unavailable!" xml:space="preserve">
+    <value>The company you are trying to access is inavailabe!</value>
+  </data>
+  <data name="The default company was saved successfully!" xml:space="preserve">
+    <value>La société par défaut a été enregistré avec succès!</value>
+  </data>
+  <data name="There was an error sending your request." xml:space="preserve">
+    <value>Une erreur s'est produite lors de l'envoi de votre demande.</value>
+  </data>
+  <data name="This period is already being processed!" xml:space="preserve">
+    <value>Cette période est déjà en cours d'un traitement !</value>
+  </data>
+  <data name="This period is already closed!" xml:space="preserve">
+    <value>Cette période est déjà clôturée !</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titre</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>Au</value>
+  </data>
+  <data name="Token Not Found!" xml:space="preserve">
+    <value>Token Not Found!</value>
+  </data>
+  <data name="Transfer" xml:space="preserve">
+    <value>Transfert</value>
+  </data>
+  <data name="Trial end date" xml:space="preserve">
+    <value>Date fin d'essaie</value>
+  </data>
+  <data name="Undefined" xml:space="preserve">
+    <value>Indéfini</value>
+  </data>
+  <data name="Units" xml:space="preserve">
+    <value>Base</value>
+  </data>
+  <data name="Unkown" xml:space="preserve">
+    <value>Inconnu</value>
+  </data>
+  <data name="Unpaid leave" xml:space="preserve">
+    <value>Congé sans solde</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Importer</value>
+  </data>
+  <data name="Upload report" xml:space="preserve">
+    <value>Importer un raport</value>
+  </data>
+  <data name="Upload report file" xml:space="preserve">
+    <value>Télécharger le fichier de rapport</value>
+  </data>
+  <data name="User roles" xml:space="preserve">
+    <value>Rôles d'utilisateur</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Utilisateurs</value>
+  </data>
+  <data name="Users exported" xml:space="preserve">
+    <value>Users exported</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="ValueA" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="Various" xml:space="preserve">
+    <value>Divers</value>
+  </data>
+  <data name="View Profile" xml:space="preserve">
+    <value>Voir le profil</value>
+  </data>
+  <data name="Widowed" xml:space="preserve">
+    <value>Veuf(ve)</value>
+  </data>
+  <data name="Work Model" xml:space="preserve">
+    <value>Modèle de travail</value>
+  </data>
+  <data name="Work relationship" xml:space="preserve">
+    <value>Relation de travail</value>
+  </data>
+  <data name="Work type" xml:space="preserve">
+    <value>Types de travail</value>
+  </data>
+  <data name="You are logged out because the Permissions of one of your Roles have been updated." xml:space="preserve">
+    <value>Vous êtes déconnecté car les autorisations de l'un de vos rôles ont été mises à jour.</value>
+  </data>
+  <data name="You are logged out because the user with your Token has been deleted." xml:space="preserve">
+    <value>Vous êtes déconnecté car l'utilisateur avec votre Token a été supprimé.</value>
+  </data>
+  <data name="You should open the period first!" xml:space="preserve">
+    <value>Vous devez ouvrir l'exercice en premier!</value>
+  </data>
+  <data name="You're not authorized to access this company!" xml:space="preserve">
+    <value>Vous n'êtes pas autorisé à accéder à cette société !</value>
+  </data>
+  <data name="Your password has been changed succefully!" xml:space="preserve">
+    <value>Votre mot de passe a été modifié avec succès !</value>
+  </data>
+  <data name="Your request has been sent." xml:space="preserve">
+    <value>Votre demande à été envoyé.</value>
+  </data>
+</root>

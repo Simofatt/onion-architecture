@@ -1,34 +1,64 @@
-﻿
-@inherits LayoutComponentBase
-<MudThemeProvider @bind-IsDarkMode=@darkMode/>
-<MudDialogProvider />
-<MudSnackbarProvider />
+﻿@inherits LayoutComponentBase
 
-<MudLayout>
-    <MudAppBar Color="Color.Primary" Dense="false" Eleveation ="0" >
-        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
-        <MudSpacer />
-        <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End" />
-    </MudAppBar>
-    <MudDrawer @bind-Open="_drawerOpen" Elevation="1">
-        <MudDrawerHeader>
-            <MudText Typo="Typo.h6" >Application</MudText>
-        </MudDrawerHeader>
-        <NavMenu />
-    </MudDrawer>
-    
-        <MudMainContent class="text-center" MaxWidth="MaxWidth.Medium">
-        @Body
-    </MudMainContent>
-   
+<audio id="notification" src="/media/notification.mp3"/>
+<MudThemeProvider Theme="_currentTheme"/>
+<MudDialogProvider/>
+<MudSnackbarProvider/>
+<AuthorizeView>
+    <NotAuthorized>
 
-</MudLayout>
+        <div class="content">
+            @Body <!-- This is where the page content will be rendered -->
+        </div>
 
-@code {
-    bool _drawerOpen = true;
-    bool darkMode = true;
-    void DrawerToggle()
-    {
-        _drawerOpen = !_drawerOpen;
-    }
-}
+    </NotAuthorized>
+    <Authorized>
+ 
+        <MudLayout RightToLeft="@_rightToLeft">
+            <MudAppBar Elevation="25" Dense="true"  >
+                <MudTooltip Text="Toggle Drawer">
+                    <MudIconButton Icon="@Icons.Rounded.Menu" Color="Color.Inherit" Edge="Edge.Start"
+                                   OnClick="@((e) => DrawerToggle())"/>
+                </MudTooltip>
+              
+
+                <MudText Typo="Typo.h6" Class="ml-4">Template</MudText>
+                <MudSpacer/>
+                <MudHidden Breakpoint="Breakpoint.MdAndUp" Invert="true">
+                    @*  <LanguageSelector />*@
+                </MudHidden>
+                <MudHidden Breakpoint="Breakpoint.SmAndDown" Invert="true">
+                    @*  <LanguageSelector />*@
+                </MudHidden>
+                <MudMenu Direction="_rightToLeft ? Direction.Right : Direction.Left" OffsetX="true" Dense="true" Class="ml-4">
+                    <ActivatorContent>
+                        @if (string.IsNullOrEmpty(ImageDataUrl))
+                        {
+                            <MudAvatar Style="margin: auto;" Color="Color.Primary">@FirstLetterOfName</MudAvatar>
+                        }
+                        else
+                        {
+                            <MudAvatar Image="@ImageDataUrl" Style="height:40px; width:40px;border: solid 2px;margin: auto;"> </MudAvatar>
+                        }
+                    </ActivatorContent>
+                    <ChildContent>
+                        <UserCard Class="mt-n2"/>
+                        <MudDivider Class="mb-2"/>
+                        <MudListItem Text="@_l["Account"]" Href="/account" Icon="@Icons.Material.Outlined.Person"/>
+                        <MudListItem Text="@_l["Logout"]" Icon="@Icons.Material.Filled.Logout" OnClick="Logout"/>
+                    </ChildContent>
+                </MudMenu>
+            </MudAppBar>
+            <MudDrawer @bind-Open="_drawerOpen" Elevation="25" ClipMode="DrawerClipMode.Always">
+                <NavMenu/>
+            </MudDrawer>
+            <MudMainContent>
+                <MudContainer class="container" MaxWidth="MaxWidth.False" Style="position: inherit;overflow: auto;height: calc(100vh - 50px);width: 100%;">
+                    <div class="content">
+                        @Body <!-- This is where the page content will be rendered -->
+                    </div>
+                </MudContainer>
+            </MudMainContent>
+        </MudLayout>
+    </Authorized>
+</AuthorizeView>

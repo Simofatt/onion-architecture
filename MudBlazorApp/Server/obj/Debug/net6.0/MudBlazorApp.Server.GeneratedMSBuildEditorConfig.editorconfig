@@ -9,13 +9,13 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MudBlazorApp.Server
 build_property.RootNamespace = MudBlazorApp.Server
-build_property.ProjectDir = C:\Users\Simofatt\Architecture\MudBlazorApp\Server\
+build_property.ProjectDir = C:\Users\Simofatt\Desktop\TEMPLATES\SynaplicNavMenu\Architecture\MudBlazorApp\Server\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Simofatt\Architecture\MudBlazorApp\Server
+build_property.MSBuildProjectDirectory = C:\Users\Simofatt\Desktop\TEMPLATES\SynaplicNavMenu\Architecture\MudBlazorApp\Server
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Simofatt/Architecture/MudBlazorApp/Server/Pages/Error.cshtml]
+[C:/Users/Simofatt/Desktop/TEMPLATES/SynaplicNavMenu/Architecture/MudBlazorApp/Server/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -9,29 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = MudBlazorApp.Client
 build_property.RootNamespace = MudBlazorApp.Client
-build_property.ProjectDir = C:\Users\Simofatt\Architecture\MudBlazorApp\Client\
+build_property.ProjectDir = C:\Users\Simofatt\Desktop\TEMPLATES\SynaplicNavMenu\Architecture\MudBlazorApp\Client\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Simofatt\Architecture\MudBlazorApp\Client
+build_property.MSBuildProjectDirectory = C:\Users\Simofatt\Desktop\TEMPLATES\SynaplicNavMenu\Architecture\MudBlazorApp\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Simofatt/Architecture/MudBlazorApp/Client/App.razor]
+[C:/Users/Simofatt/Desktop/TEMPLATES/SynaplicNavMenu/Architecture/MudBlazorApp/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/Architecture/MudBlazorApp/Client/Shared/SurveyPrompt.razor]
+[C:/Users/Simofatt/Desktop/TEMPLATES/SynaplicNavMenu/Architecture/MudBlazorApp/Client/Pages/Identity/Account.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWRlbnRpdHlcQWNjb3VudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Simofatt/Desktop/TEMPLATES/SynaplicNavMenu/Architecture/MudBlazorApp/Client/Pages/Identity/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWRlbnRpdHlcUHJvZmlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Simofatt/Desktop/TEMPLATES/SynaplicNavMenu/Architecture/MudBlazorApp/Client/Pages/Identity/Security.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWRlbnRpdHlcU2VjdXJpdHkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Simofatt/Desktop/TEMPLATES/SynaplicNavMenu/Architecture/MudBlazorApp/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Simofatt/Desktop/TEMPLATES/SynaplicNavMenu/Architecture/MudBlazorApp/Client/Shared/Dialogs/Confirmation.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXERpYWxvZ3NcQ29uZmlybWF0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Simofatt/Desktop/TEMPLATES/SynaplicNavMenu/Architecture/MudBlazorApp/Client/Shared/Dialogs/DeleteConfirmation.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXERpYWxvZ3NcRGVsZXRlQ29uZmlybWF0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Simofatt/Desktop/TEMPLATES/SynaplicNavMenu/Architecture/MudBlazorApp/Client/Shared/Dialogs/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXERpYWxvZ3NcTG9nb3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Simofatt/Desktop/TEMPLATES/SynaplicNavMenu/Architecture/MudBlazorApp/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Simofatt/Desktop/TEMPLATES/SynaplicNavMenu/Architecture/MudBlazorApp/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Simofatt/Desktop/TEMPLATES/SynaplicNavMenu/Architecture/MudBlazorApp/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/Architecture/MudBlazorApp/Client/_Imports.razor]
+[C:/Users/Simofatt/Desktop/TEMPLATES/SynaplicNavMenu/Architecture/MudBlazorApp/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Simofatt/Architecture/MudBlazorApp/Client/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-dxqyn8xoyz
-
-[C:/Users/Simofatt/Architecture/MudBlazorApp/Client/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-xqvfiyi585

@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "LmJ+r7zsoS4utvnkIhGFuu1lB9P+uPFM5wE/Y5SdYrOq7Jhi7gVLeMQ4cj4k+uu8kplFJ7Vog173SWAUSy97Xg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\SynaplicNavMenu\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.11\\microsoft.aspnetcore.authorization.6.0.11.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.11\\microsoft.aspnetcore.components.6.0.11.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.11\\microsoft.aspnetcore.components.analyzers.6.0.11.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.11\\microsoft.aspnetcore.components.forms.6.0.11.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.11\\microsoft.aspnetcore.components.web.6.0.11.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.11\\microsoft.aspnetcore.metadata.6.0.11.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.3\\microsoft.extensions.logging.abstractions.6.0.3.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.jsinterop\\6.0.11\\microsoft.jsinterop.6.0.11.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\mudblazor\\6.1.4\\mudblazor.6.1.4.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

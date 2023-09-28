@@ -17,6 +17,7 @@
       "IBM.Cloud.SDK.Core.dll": "sha256-YWG7aj+ZUckmBNUkV1q2al9IS3C02o4Z11QMJibM2dU=",
       "IBM.Watson.Common.dll": "sha256-RHETtOqmcdOh5PkFXW\/pCmUu7HdCUxiIprkD0+zDQao=",
       "IBM.Watson.SpeechToText.v1.dll": "sha256-GPn9mvBlyDLt2zwMRNbDR2X800y1U8XDCO9ret1Xhuc=",
+      "ICSharpCode.Decompiler.dll": "sha256-IoEl\/LDEAqnbfaVoFPWmo2k6OO3rethRboG8QssAl9M=",
       "JsonSubTypes.dll": "sha256-3EMOEdJwDGyRA72Jn6PKQEG3tpZgD++UP2x9b+J6bW8=",
       "JWT.dll": "sha256-YxYfUO3Lzi2UB6ETjG28M25fHe5Na9nA8Ba7qHR1LOo=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-aDNthpcgReHLCzS5ZT\/PJDirLd6siorRIngHWOCUfd4=",
@@ -24,6 +25,10 @@
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-PCqolrqn+eWfQ\/KIakpqOwLmo9t9cThQzzpZ7dr+SjA=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-HJq4+3Qg5eiYk\/JyTPmtr2NFJz+E9+HhSyddNQaPGoI=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-Zw+8hKvSWqNVTfS96m6AmCqaN9+2k0BcxRJy1Oa\/MCE=",
+      "Microsoft.AspNetCore.Http.Abstractions.dll": "sha256-qFKmKNr9iAZiZxOVvLJBfMhkKfDy1GvY81fHh1hiphU=",
+      "Microsoft.AspNetCore.Http.Extensions.dll": "sha256-dsGZ+sGJdrYngMg72CIF31THFtl6ovcKTjtGtj9orn8=",
+      "Microsoft.AspNetCore.Http.Features.dll": "sha256-J2xQUZ4BD6tsrQkvGS5HDQfkTGMzmaS76TA9nJrtCpg=",
+      "Microsoft.AspNetCore.Localization.dll": "sha256-syddeSMQNcZ\/gP0LTGrOj2PUlA2ml5rjdJjeO9cI2Dw=",
       "Microsoft.AspNetCore.Metadata.dll": "sha256-g\/OjH4wlDmohDQeYFG1E30\/ppCidxPt6QHw4Bof3Des=",
       "Microsoft.Bcl.AsyncInterfaces.dll": "sha256-EcDo\/GQZkQrOT1Xd0jMPE3NwT5lsMq5DNsPxHVidLDQ=",
       "Microsoft.Data.SqlClient.dll": "sha256-E0O4RTYcARngj8CWO22Y7XrMIM5dU7QUvVm7t8pHrO0=",
@@ -60,6 +65,7 @@
       "Microsoft.IdentityModel.Tokens.dll": "sha256-J4gVhNu81SaFGD7bDdUjBooAZOZYZ17Rqgmuwd8zLFI=",
       "Microsoft.JSInterop.dll": "sha256-ALn8NC3hrTKXR7eHxOPax8hsoVRUDr+2fn6cTY635kE=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-Gg9LBlaJWdtb3sSzYeYmfRVL27Dj19DRx543CX2pbqs=",
+      "Microsoft.Net.Http.Headers.dll": "sha256-P66ftDrXwc6ayND8uYzIk0CPQy1GjNZAPHx9RMhi3V4=",
       "Microsoft.SqlServer.Server.dll": "sha256-qdyhtCvIdflmt4ssCIDmK4OPDtZWcWbX8fB65LduxL8=",
       "Microsoft.Win32.SystemEvents.dll": "sha256-QV6B1p\/dQJO7qHvPN0JZr5UKKFp+s9zZSnViNcpgVN8=",
       "MudBlazor.dll": "sha256-lTcym22OVmkwWJVRqm+ndz8oZhOwsoxJbhMkjd\/jArU=",
@@ -240,21 +246,23 @@
       "mscorlib.dll": "sha256-j4L8eYEbpTL2UGB4uTT5qwkcqJsmB46NkVr5uesXgJI=",
       "netstandard.dll": "sha256-2M8m82GceNG8Z8I4dD74L7Tl4vwXdwXcVpYN80ouzQA=",
       "System.Private.CoreLib.dll": "sha256-dFxocfrY9q0E7UJ6nBlyNfnWYTyPu3RKzSggfRhoPJY=",
-      "Application.dll": "sha256-miKOQnbImnOVQTkMfa2L32\/ecg66a\/ZgnK0uBjU7Gk0=",
-      "Domain.dll": "sha256-wjjGWGIODqYEMW75NVt0TBtw2zs2rMW9aErlnLaMg\/I=",
-      "Infrastructure.dll": "sha256-O0wFhRYvX2stViN6TCsWHje+8SXodn3yjAYxzwFLkaU=",
-      "MudBlazorApp.Shared.dll": "sha256-m4ioM9VnqPH8irbcq9hDNVEm0pa2D7wq9mVJ94ODA1Y=",
-      "MudBlazorApp.Client.dll": "sha256-t10t4+SrTFl2wuZyFRDqudAR+I1GYfPAj9TiMLEmEh4="
+      "Application.dll": "sha256-kRmTXAf2J9TiwLvGb9sXORzEwRKfLOFylM97r0XzZwQ=",
+      "Client.Infrastructure.dll": "sha256-jVJu1Me+tB9Z2\/ts4aqIpvP7dpZ1A7NfD3pkw6oQs7Y=",
+      "Domain.dll": "sha256-HdJ+lVV9hErIj2ILEnXH3fKmrsqLqrp803Hu9ho1gQY=",
+      "Infrastructure.dll": "sha256-uyXY1wDuA0tP82DCmGOVwcSl9Ewlhi667NKYZ1eSFfs=",
+      "MudBlazorApp.Shared.dll": "sha256-CjkU00rE8pBmyEe6vSsCaV9l4xWIz8SIWqVCp6+gNII=",
+      "MudBlazorApp.Client.dll": "sha256-WNEcMWT745Pmec0mI7J5QxJ+4hxBQ3iNZrMR84X3QyQ="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Infrastructure.pdb": "sha256-7HO3i\/jucfE3Cq7ykNVGNvRy+37aky8dn6FcjWxR3bU=",
-      "Application.pdb": "sha256-PGdYg5QBxhUsUhaYrLjWoNAgTC+4iDnc8GLI95KECh4=",
-      "Domain.pdb": "sha256-J0JeUkaHuw2fNv8wBMqFjbOHX5OQNr3RwlmMNLGRtYA=",
-      "MudBlazorApp.Shared.pdb": "sha256-\/AAdGWfZbiHpf\/ldjep0zRHCg1nK4o5pRpzRtTmDiik=",
-      "MudBlazorApp.Client.pdb": "sha256-RPtVyNH3L2jXAMLSlQ4F16Sm7RzspGWaTNrMYkQ66+Q="
+      "Client.Infrastructure.pdb": "sha256-b\/bISxBrYFqFVFRqlQ\/c8B1rQaYki3efvBxEH7WDrVw=",
+      "Infrastructure.pdb": "sha256-uATtLYYrX6tGcqBnuSdpQpJc4tHendhMha1jlPF7yJc=",
+      "Application.pdb": "sha256-D9NuqXF0ATalvTmdo9rOox7nL5F0JNtJPCranIdFgog=",
+      "Domain.pdb": "sha256-J0UUvOQxJs\/MmVlC44KUXX5JVK\/tmlDf0Q\/QY9NIsQE=",
+      "MudBlazorApp.Shared.pdb": "sha256-qQOVta5P7Gndg4yXUpMm9W9Db8JhbNyUdSEg9X+Y4Vk=",
+      "MudBlazorApp.Client.pdb": "sha256-lZInBVboEgCdBClK4Z5D12hiOwH2CNVRfR0F5l31VuI="
     },
     "runtime": {
       "dotnet.6.0.20.60tms21sf8.js": "sha256-iXtnf0CK+zdIWjR0cpE38tWChIpNC6sO+aSQAW+aBQU=",
@@ -271,6 +279,13 @@
         "hash": "sha256-2iXF3JXnKI9gG39mZrRKGis+QcI4qawrgcqz9fUi6gs="
       }
     },
-    "satelliteResources": null
+    "satelliteResources": {
+      "en": {
+        "en\/MudBlazorApp.Client.resources.dll": "sha256-k+eYS2OqCktKJsNOyNt\/Vn\/EX9zpleklCr37HlwulYU="
+      },
+      "fr": {
+        "fr\/MudBlazorApp.Client.resources.dll": "sha256-fTjQyPoYt+x8oN6p1lvrSgEo49hA3ovz1v7DUmPs2HY="
+      }
+    }
   }
 }

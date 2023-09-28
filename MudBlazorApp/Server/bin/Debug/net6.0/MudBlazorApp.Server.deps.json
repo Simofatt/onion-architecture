@@ -167,6 +167,18 @@
           }
         }
       },
+      "ICSharpCode.Decompiler/8.1.1.7464": {
+        "dependencies": {
+          "System.Collections.Immutable": "6.0.0",
+          "System.Reflection.Metadata": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ICSharpCode.Decompiler.dll": {
+            "assemblyVersion": "8.1.1.7464",
+            "fileVersion": "8.1.1.7464"
+          }
+        }
+      },
       "JsonSubTypes/1.8.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
@@ -266,6 +278,33 @@
             "assemblyVersion": "6.0.15.0",
             "fileVersion": "6.0.1523.12404"
           }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "System.Text.Encodings.Web": "7.0.0"
+        }
+      },
+      "Microsoft.AspNetCore.Http.Extensions/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
+          "Microsoft.Net.Http.Headers": "2.2.0",
+          "System.Buffers": "4.5.1"
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        }
+      },
+      "Microsoft.AspNetCore.Localization/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
+          "Microsoft.Extensions.Localization.Abstractions": "6.0.16",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Options": "7.0.0"
         }
       },
       "Microsoft.AspNetCore.Metadata/6.0.16": {
@@ -718,6 +757,12 @@
           }
         }
       },
+      "Microsoft.Net.Http.Headers/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0",
+          "System.Buffers": "4.5.1"
+        }
+      },
       "Microsoft.NETCore.Platforms/5.0.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "Microsoft.OpenApi/1.6.5": {
@@ -973,6 +1018,11 @@
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Collections.Immutable/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         }
       },
       "System.ComponentModel/4.3.0": {
@@ -1436,6 +1486,11 @@
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Reflection": "4.3.0",
           "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Metadata/6.0.0": {
+        "dependencies": {
+          "System.Collections.Immutable": "6.0.0"
         }
       },
       "System.Reflection.Primitives/4.3.0": {
@@ -1903,6 +1958,14 @@
           "Application.dll": {}
         }
       },
+      "Client.Infrastructure/1.0.0": {
+        "dependencies": {
+          "MudBlazor": "6.7.0"
+        },
+        "runtime": {
+          "Client.Infrastructure.dll": {}
+        }
+      },
       "Domain/1.0.0": {
         "runtime": {
           "Domain.dll": {}
@@ -1925,17 +1988,28 @@
       "MudBlazorApp.Client/1.0.0": {
         "dependencies": {
           "Blazored.FluentValidation": "2.1.0",
+          "Client.Infrastructure": "1.0.0",
           "FluentValidation": "11.6.0",
           "H.Recorders.WinmmRecorder": "0.20.8",
           "IBM.Cloud.SDK.Core": "1.3.1",
           "IBM.Watson.SpeechToText.v1": "7.0.0",
+          "ICSharpCode.Decompiler": "8.1.1.7464",
           "Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.15",
+          "Microsoft.AspNetCore.Localization": "2.2.0",
           "Microsoft.Extensions.Http": "7.0.0",
           "MudBlazor": "6.7.0"
         },
         "runtime": {
           "MudBlazorApp.Client.dll": {}
+        },
+        "resources": {
+          "en/MudBlazorApp.Client.resources.dll": {
+            "locale": "en"
+          },
+          "fr/MudBlazorApp.Client.resources.dll": {
+            "locale": "fr"
+          }
         }
       },
       "MudBlazorApp.Shared/1.0.0": {
@@ -2039,6 +2113,13 @@
       "path": "ibm.watson.speechtotext.v1/7.0.0",
       "hashPath": "ibm.watson.speechtotext.v1.7.0.0.nupkg.sha512"
     },
+    "ICSharpCode.Decompiler/8.1.1.7464": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IyLG/RMZzlUAS73hB6aRv9I4PqqsuMLdaK7yw/l6fxaSMhk+DvouATVAK7Eb/Yj1nTzkuk+ZSqqdwpd6vNwQvw==",
+      "path": "icsharpcode.decompiler/8.1.1.7464",
+      "hashPath": "icsharpcode.decompiler.8.1.1.7464.nupkg.sha512"
+    },
     "JsonSubTypes/1.8.0": {
       "type": "package",
       "serviceable": true,
@@ -2101,6 +2182,34 @@
       "sha512": "sha512-lQdCr5km25gVrnumcfx6RlGYWwVMHso6AFOFz2qXCsvoOScyN3BIZaZKVCdx/20cln6eKRD0HSDjQUrkxQNpqA==",
       "path": "microsoft.aspnetcore.components.webassembly.server/6.0.15",
       "hashPath": "microsoft.aspnetcore.components.webassembly.server.6.0.15.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
+      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Extensions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2DgZ9rWrJtuR7RYiew01nGRzuQBDaGHGmK56Rk54vsLLsCdzuFUPqbDTJCS1qJQWTbmbIQ9wGIOjpxA1t0l7/w==",
+      "path": "microsoft.aspnetcore.http.extensions/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
+      "path": "microsoft.aspnetcore.http.features/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Localization/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+PGX1mEfq19EVvskBBb9XBQrXZpZrh6hYhX0x3FkPTEqr+rDM2ZmsEwAAMRmzcidmlDM1/7cyDSU/WhkecU8tA==",
+      "path": "microsoft.aspnetcore.localization/2.2.0",
+      "hashPath": "microsoft.aspnetcore.localization.2.2.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Metadata/6.0.16": {
       "type": "package",
@@ -2403,6 +2512,13 @@
       "path": "microsoft.jsinterop.webassembly/6.0.15",
       "hashPath": "microsoft.jsinterop.webassembly.6.0.15.nupkg.sha512"
     },
+    "Microsoft.Net.Http.Headers/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iZNkjYqlo8sIOI0bQfpsSoMTmB/kyvmV2h225ihyZT33aTp48ZpF6qYnXxzSXmHt8DpBAwBTX+1s1UFLbYfZKg==",
+      "path": "microsoft.net.http.headers/2.2.0",
+      "hashPath": "microsoft.net.http.headers.2.2.0.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/5.0.0": {
       "type": "package",
       "serviceable": true,
@@ -2661,6 +2777,13 @@
       "sha512": "sha512-ztl69Xp0Y/UXCL+3v3tEU+lIy+bvjKNUmopn1wep/a291pVPK7dxBd6T7WnlQqRog+d1a/hSsgRsmFnIBKTPLQ==",
       "path": "system.collections.concurrent/4.3.0",
       "hashPath": "system.collections.concurrent.4.3.0.nupkg.sha512"
+    },
+    "System.Collections.Immutable/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
+      "path": "system.collections.immutable/6.0.0",
+      "hashPath": "system.collections.immutable.6.0.0.nupkg.sha512"
     },
     "System.ComponentModel/4.3.0": {
       "type": "package",
@@ -2955,6 +3078,13 @@
       "sha512": "sha512-rJkrJD3kBI5B712aRu4DpSIiHRtr6QlfZSQsb0hYHrDCZORXCFjQfoipo2LaMUHoT9i1B7j7MnfaEKWDFmFQNQ==",
       "path": "system.reflection.extensions/4.3.0",
       "hashPath": "system.reflection.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Metadata/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sffDOcex1C3HO5kDolOYcWXTwRpZY/LvJujM6SMjn63fWMJWchYAAmkoAJXlbpZ5yf4d+KMgxd+LeETa4gD9sQ==",
+      "path": "system.reflection.metadata/6.0.0",
+      "hashPath": "system.reflection.metadata.6.0.0.nupkg.sha512"
     },
     "System.Reflection.Primitives/4.3.0": {
       "type": "package",
@@ -3258,6 +3388,11 @@
       "hashPath": "wdc.system.net.http.formatting.netstandard.1.0.7.nupkg.sha512"
     },
     "Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Client.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

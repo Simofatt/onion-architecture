@@ -13,18 +13,20 @@
 	<PackageReference Include="IBM.Watson.SpeechToText.v1" Version="7.0.0" />
     <PackageReference Include="FluentValidation" Version="11.6.0" />
     <PackageReference Include="IBM.Watson.SpeechToText.v1" Version="7.0.0" />
+    <PackageReference Include="ICSharpCode.Decompiler" Version="8.1.1.7464" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.15" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.15" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.AspNetCore.Localization" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0" />
     <PackageReference Include="MudBlazor" Version="6.7.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Client.Infrastructure\Client.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Infrastructure\Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\" />
     <Folder Include="wwwroot\scripts\" />
   </ItemGroup>
 
