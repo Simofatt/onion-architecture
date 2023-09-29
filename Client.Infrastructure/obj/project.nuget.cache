@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LmJ+r7zsoS4utvnkIhGFuu1lB9P+uPFM5wE/Y5SdYrOq7Jhi7gVLeMQ4cj4k+uu8kplFJ7Vog173SWAUSy97Xg==",
+  "dgSpecHash": "fqwhrDAj4wT3mATiE6Wr1N+DX4qDXIKLJ2g0VyFO3fRIJi3ddZ8E7bpQ7X1gKf85D2+1NaA5/+Cr0nb0bq8Eyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\SynaplicNavMenu\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.11\\microsoft.aspnetcore.authorization.6.0.11.nupkg.sha512",
     "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.11\\microsoft.aspnetcore.components.6.0.11.nupkg.sha512",

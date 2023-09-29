@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4ZKWhc+BsMBS5e+cTrB+23YKqUkh3FgRfHqeBnA4SavVk+LyjUt/8lTCXiczJzTvbD7OG2GsSYttlEUDc/BHcQ==",
+  "dgSpecHash": "t0wulwGfl08KtuAi8+vk0Vbyhv5AiLJr3/9rkpRIU120PCThETeRcy8mbC8IHhmQRWcuoCUlbB6jnFpJC7Ajjg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\SynaplicNavMenu\\Architecture\\MudBlazorApp\\Server\\MudBlazorApp.Server.csproj",
+  "projectFilePath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Server\\MudBlazorApp.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Simofatt\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Simofatt\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

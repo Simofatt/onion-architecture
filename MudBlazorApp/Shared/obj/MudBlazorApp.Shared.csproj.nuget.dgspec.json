@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\SynaplicNavMenu\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj": {}
+    "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\SynaplicNavMenu\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj": {
+    "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\SynaplicNavMenu\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj",
         "projectName": "MudBlazorApp.Shared",
-        "projectPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\SynaplicNavMenu\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj",
+        "projectPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj",
         "packagesPath": "C:\\Users\\Simofatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\SynaplicNavMenu\\Architecture\\MudBlazorApp\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Simofatt\\AppData\\Roaming\\NuGet\\NuGet.Config",

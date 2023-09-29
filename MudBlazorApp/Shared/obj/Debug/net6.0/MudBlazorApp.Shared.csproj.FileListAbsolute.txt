@@ -22,3 +22,15 @@ C:\Users\Simofatt\Desktop\TEMPLATES\SynaplicNavMenu\Architecture\MudBlazorApp\Sh
 C:\Users\Simofatt\Desktop\TEMPLATES\SynaplicNavMenu\Architecture\MudBlazorApp\Shared\obj\Debug\net6.0\refint\MudBlazorApp.Shared.dll
 C:\Users\Simofatt\Desktop\TEMPLATES\SynaplicNavMenu\Architecture\MudBlazorApp\Shared\obj\Debug\net6.0\MudBlazorApp.Shared.pdb
 C:\Users\Simofatt\Desktop\TEMPLATES\SynaplicNavMenu\Architecture\MudBlazorApp\Shared\obj\Debug\net6.0\ref\MudBlazorApp.Shared.dll
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\MudBlazorApp\Shared\bin\Debug\net6.0\MudBlazorApp.Shared.deps.json
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\MudBlazorApp\Shared\bin\Debug\net6.0\MudBlazorApp.Shared.dll
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\MudBlazorApp\Shared\bin\Debug\net6.0\MudBlazorApp.Shared.pdb
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\MudBlazorApp\Shared\obj\Debug\net6.0\MudBlazorApp.Shared.csproj.AssemblyReference.cache
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\MudBlazorApp\Shared\obj\Debug\net6.0\MudBlazorApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\MudBlazorApp\Shared\obj\Debug\net6.0\MudBlazorApp.Shared.AssemblyInfoInputs.cache
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\MudBlazorApp\Shared\obj\Debug\net6.0\MudBlazorApp.Shared.AssemblyInfo.cs
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\MudBlazorApp\Shared\obj\Debug\net6.0\MudBlazorApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\MudBlazorApp\Shared\obj\Debug\net6.0\MudBlazorApp.Shared.dll
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\MudBlazorApp\Shared\obj\Debug\net6.0\refint\MudBlazorApp.Shared.dll
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\MudBlazorApp\Shared\obj\Debug\net6.0\MudBlazorApp.Shared.pdb
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\MudBlazorApp\Shared\obj\Debug\net6.0\ref\MudBlazorApp.Shared.dll

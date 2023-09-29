@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S0+H0K3cMvc1KmYmhsszG64CyODuzcifLZWYIuf5xS/7jiTrMpbG+cR7hgz7FgjTjhcr39Yx+D1V6k4FtTlHLw==",
+  "dgSpecHash": "zKfOHC4xUbq4Xm65yxIsulalMz8GkT/jeSiQ8LKiJcbW9QWqa7Oanr/ojFjRNZBeMWuGvTa1Bus2tUtwKYwXDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\SynaplicNavMenu\\Architecture\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

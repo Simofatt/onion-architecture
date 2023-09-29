@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7CdpxeHMFSyCuvTYbbmNQgQwYsBxcq+ORfcw5JhKKc0R2Zz4Baqq9fgWLWW+5qSYboAXHW/ky0IIeurXDwFf8w==",
+  "dgSpecHash": "47XrCb66RPslafG6GorL92QO4OiM2ixbqCwQW1TrQU8wSxkpFa9V46YFvBc7EkhRmtyDB1yR2ZJwdFM9NkQW0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\SynaplicNavMenu\\Architecture\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Simofatt\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Simofatt\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

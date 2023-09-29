@@ -1,1 +1,25 @@
-﻿
+﻿<MudForm @ref="form">
+    <MudCard>
+        <MudCardHeader>
+            <CardHeaderContent>
+                <MudText>Change Password</MudText>
+            </CardHeaderContent>
+        </MudCardHeader>
+        <MudCardContent>
+            <MudGrid>
+                <MudItem xs="12" md="6">
+                    <MudTextField T="string" Label="Password" Variant="Variant.Outlined" InputType="InputType.Password" @ref="pwField1" Validation="@(new Func<string, IEnumerable<string>>(PasswordStrength))" Required="true" RequiredError="Password is required!" />
+                </MudItem>
+                <MudItem xs="12" md="6">
+                    <MudTextField T="string" Label="Password Confirmation" Variant="Variant.Outlined" InputType="InputType.Password" Validation="@(new Func<string, string>(PasswordMatch))" />
+                </MudItem>
+                <MudItem xs="12">
+                    <MudTextField T="string" Label="Current Password" Variant="Variant.Outlined" InputType="InputType.Password" />
+                </MudItem>
+            </MudGrid>
+        </MudCardContent>
+        <MudCardActions Class="pb-4 pl-4">
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto" @onclick="@(() => SaveChanges("Current Password is incorrect", Severity.Error))">Change Password</MudButton>
+        </MudCardActions>
+    </MudCard>
+</MudForm>

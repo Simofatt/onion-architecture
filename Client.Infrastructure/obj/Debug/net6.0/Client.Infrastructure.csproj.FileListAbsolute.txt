@@ -10,3 +10,15 @@ C:\Users\Simofatt\Desktop\TEMPLATES\SynaplicNavMenu\Architecture\Client.Infrastr
 C:\Users\Simofatt\Desktop\TEMPLATES\SynaplicNavMenu\Architecture\Client.Infrastructure\obj\Debug\net6.0\refint\Client.Infrastructure.dll
 C:\Users\Simofatt\Desktop\TEMPLATES\SynaplicNavMenu\Architecture\Client.Infrastructure\obj\Debug\net6.0\Client.Infrastructure.pdb
 C:\Users\Simofatt\Desktop\TEMPLATES\SynaplicNavMenu\Architecture\Client.Infrastructure\obj\Debug\net6.0\ref\Client.Infrastructure.dll
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\Client.Infrastructure\bin\Debug\net6.0\Client.Infrastructure.deps.json
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\Client.Infrastructure\bin\Debug\net6.0\Client.Infrastructure.dll
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\Client.Infrastructure\bin\Debug\net6.0\Client.Infrastructure.pdb
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\Client.Infrastructure\obj\Debug\net6.0\Client.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\Client.Infrastructure\obj\Debug\net6.0\Client.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\Client.Infrastructure\obj\Debug\net6.0\Client.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\Client.Infrastructure\obj\Debug\net6.0\Client.Infrastructure.AssemblyInfo.cs
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\Client.Infrastructure\obj\Debug\net6.0\Client.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\Client.Infrastructure\obj\Debug\net6.0\Client.Infrastructure.dll
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\Client.Infrastructure\obj\Debug\net6.0\refint\Client.Infrastructure.dll
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\Client.Infrastructure\obj\Debug\net6.0\Client.Infrastructure.pdb
+C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\Client.Infrastructure\obj\Debug\net6.0\ref\Client.Infrastructure.dll

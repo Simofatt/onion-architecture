@@ -7,9 +7,6 @@
 <AuthorizeView>
     <NotAuthorized>
 
-        <div class="content">
-            @Body <!-- This is where the page content will be rendered -->
-        </div>
 
     </NotAuthorized>
     <Authorized>
@@ -54,9 +51,10 @@
             </MudDrawer>
             <MudMainContent>
                 <MudContainer class="container" MaxWidth="MaxWidth.False" Style="position: inherit;overflow: auto;height: calc(100vh - 50px);width: 100%;">
-                    <div class="content">
-                        @Body <!-- This is where the page content will be rendered -->
-                    </div>
+
+                    <CascadingValue Value="CascadingValue">
+                        @Body
+                    </CascadingValue>
                 </MudContainer>
             </MudMainContent>
         </MudLayout>

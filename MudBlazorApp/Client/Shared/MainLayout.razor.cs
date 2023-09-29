@@ -22,6 +22,7 @@ namespace MudBlazorApp.Client.Shared
         private string SecondName { get; set; }
         private string Email { get; set; }
         private char FirstLetterOfName { get; set; }
+        private string CascadingValue { get; set; }
 
         private MudTheme _currentTheme;
         private bool _drawerOpen = true;
@@ -38,6 +39,7 @@ namespace MudBlazorApp.Client.Shared
         {
        
             _currentTheme = UniTheme.DefaultTheme;
+            CascadingValue = "test";
 
         }
 

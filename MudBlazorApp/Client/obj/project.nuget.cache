@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jcuqr65+MENVyqXnOi0aq6JY24AUt/+NSTZpKf/PMRLYZimHpMP4h6ItGBbO7rpc0BDlH/tVdSoiuhTwG/88Gw==",
+  "dgSpecHash": "8HZBFkNLZxr9pUpMZoGSQhBq94X/7ZhR7WUg0yju8f4YWUAUWJ3Upfbag76tjGdL/60/cEAUR/NveDBXnxjBeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\SynaplicNavMenu\\Architecture\\MudBlazorApp\\Client\\MudBlazorApp.Client.csproj",
+  "projectFilePath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Client\\MudBlazorApp.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Simofatt\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Simofatt\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
