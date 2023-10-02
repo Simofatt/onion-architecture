@@ -114,7 +114,6 @@ C:\Users\Simofatt\Architecture\MudBlazorApp\Server\obj\Debug\net6.0\MudBlazorApp
 C:\Users\Simofatt\Architecture\MudBlazorApp\Server\obj\Debug\net6.0\MudBlazorApp.Server.AssemblyInfoInputs.cache
 C:\Users\Simofatt\Architecture\MudBlazorApp\Server\obj\Debug\net6.0\MudBlazorApp.Server.AssemblyInfo.cs
 C:\Users\Simofatt\Architecture\MudBlazorApp\Server\obj\Debug\net6.0\MudBlazorApp.Server.csproj.CoreCompileInputs.cache
-C:\Users\Simofatt\Architecture\MudBlazorApp\Server\obj\Debug\net6.0\MudBlazorApp.Server.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Simofatt\Architecture\MudBlazorApp\Server\obj\Debug\net6.0\MudBlazorApp.Server.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Simofatt\Architecture\MudBlazorApp\Server\obj\Debug\net6.0\MudBlazorApp.Server.RazorAssemblyInfo.cache
 C:\Users\Simofatt\Architecture\MudBlazorApp\Server\obj\Debug\net6.0\MudBlazorApp.Server.RazorAssemblyInfo.cs
@@ -409,3 +408,8 @@ C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\MudBlazorApp\Serv
 C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\MudBlazorApp\Server\obj\Debug\net6.0\MudBlazorApp.Server.pdb
 C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\MudBlazorApp\Server\obj\Debug\net6.0\MudBlazorApp.Server.genruntimeconfig.cache
 C:\Users\Simofatt\Desktop\TEMPLATES\OnionTemplate\Architecture\MudBlazorApp\Server\obj\Debug\net6.0\ref\MudBlazorApp.Server.dll
+C:\Users\Simofatt\Architecture\MudBlazorApp\Server\bin\Debug\net6.0\ICSharpCode.Decompiler.dll
+C:\Users\Simofatt\Architecture\MudBlazorApp\Server\bin\Debug\net6.0\Client.Infrastructure.dll
+C:\Users\Simofatt\Architecture\MudBlazorApp\Server\bin\Debug\net6.0\Client.Infrastructure.pdb
+C:\Users\Simofatt\Architecture\MudBlazorApp\Server\bin\Debug\net6.0\Blazored.LocalStorage.dll
+C:\Users\Simofatt\Architecture\MudBlazorApp\Server\bin\Debug\net6.0\es\MudBlazorApp.Client.resources.dll

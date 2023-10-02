@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Client\\MudBlazorApp.Client.csproj": {}
+    "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\MudBlazorApp.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Application\\Application.csproj": {
+    "C:\\Users\\Simofatt\\Architecture\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Simofatt\\Architecture\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Simofatt\\Architecture\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Simofatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Simofatt\\Architecture\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Simofatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Domain\\Domain.csproj"
+              "C:\\Users\\Simofatt\\Architecture\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Simofatt\\Architecture\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj": {
-                "projectPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj"
+              "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj": {
+                "projectPath": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj": {
+    "C:\\Users\\Simofatt\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Simofatt\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj",
         "projectName": "Client.Infrastructure",
-        "projectPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Simofatt\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Simofatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Client.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Simofatt\\Architecture\\Client.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Simofatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -143,14 +143,14 @@
         }
       }
     },
-    "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Domain\\Domain.csproj": {
+    "C:\\Users\\Simofatt\\Architecture\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Simofatt\\Architecture\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Simofatt\\Architecture\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Simofatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Simofatt\\Architecture\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Simofatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -198,14 +198,14 @@
         }
       }
     },
-    "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Simofatt\\Architecture\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Simofatt\\Architecture\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Simofatt\\Architecture\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Simofatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Simofatt\\Architecture\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Simofatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -222,14 +222,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Application\\Application.csproj"
+              "C:\\Users\\Simofatt\\Architecture\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Simofatt\\Architecture\\Application\\Application.csproj"
               },
-              "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Domain\\Domain.csproj"
+              "C:\\Users\\Simofatt\\Architecture\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Simofatt\\Architecture\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj": {
-                "projectPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj"
+              "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj": {
+                "projectPath": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj"
               }
             }
           }
@@ -287,14 +287,14 @@
         }
       }
     },
-    "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Client\\MudBlazorApp.Client.csproj": {
+    "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\MudBlazorApp.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Client\\MudBlazorApp.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\MudBlazorApp.Client.csproj",
         "projectName": "MudBlazorApp.Client",
-        "projectPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Client\\MudBlazorApp.Client.csproj",
+        "projectPath": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\MudBlazorApp.Client.csproj",
         "packagesPath": "C:\\Users\\Simofatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Client\\obj\\",
+        "outputPath": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Simofatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -311,11 +311,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj"
+              "C:\\Users\\Simofatt\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Simofatt\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj"
               },
-              "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Simofatt\\Architecture\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Simofatt\\Architecture\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -333,6 +333,10 @@
             "Blazored.FluentValidation": {
               "target": "Package",
               "version": "[2.1.0, )"
+            },
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.4.0, )"
             },
             "FluentValidation": {
               "target": "Package",
@@ -407,14 +411,14 @@
         }
       }
     },
-    "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj": {
+    "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj",
         "projectName": "MudBlazorApp.Shared",
-        "projectPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj",
+        "projectPath": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj",
         "packagesPath": "C:\\Users\\Simofatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Simofatt\\AppData\\Roaming\\NuGet\\NuGet.Config",

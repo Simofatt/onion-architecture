@@ -75,6 +75,18 @@
           "lib/net6.0/Blazored.FluentValidation.dll": {}
         }
       },
+      "Blazored.LocalStorage/4.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Blazored.LocalStorage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Blazored.LocalStorage.dll": {}
+        }
+      },
       "FluentValidation/11.6.0": {
         "type": "package",
         "compile": {
@@ -3379,6 +3391,18 @@
           "lib/net6.0/Blazored.FluentValidation.dll": {}
         }
       },
+      "Blazored.LocalStorage/4.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Blazored.LocalStorage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Blazored.LocalStorage.dll": {}
+        }
+      },
       "FluentValidation/11.6.0": {
         "type": "package",
         "compile": {
@@ -6574,6 +6598,20 @@
         "icon.png",
         "lib/net6.0/Blazored.FluentValidation.dll",
         "lib/net7.0/Blazored.FluentValidation.dll"
+      ]
+    },
+    "Blazored.LocalStorage/4.4.0": {
+      "sha512": "zuXZB4/WW3Pr1761peemffdkjt09lbOP1wAkSDTKl7BTbA9V5e8LxS6MNfmyHW+BJzXrNDq90E2Y+AfIfnIbWQ==",
+      "type": "package",
+      "path": "blazored.localstorage/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "blazored.localstorage.4.4.0.nupkg.sha512",
+        "blazored.localstorage.nuspec",
+        "icon.png",
+        "lib/net6.0/Blazored.LocalStorage.dll",
+        "lib/net7.0/Blazored.LocalStorage.dll"
       ]
     },
     "FluentValidation/11.6.0": {
@@ -13515,6 +13553,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Blazored.FluentValidation >= 2.1.0",
+      "Blazored.LocalStorage >= 4.4.0",
       "Client.Infrastructure >= 1.0.0",
       "FluentValidation >= 11.6.0",
       "H.Recorders.WinmmRecorder >= 0.20.8",
@@ -13535,11 +13574,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Client\\MudBlazorApp.Client.csproj",
+      "projectUniqueName": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\MudBlazorApp.Client.csproj",
       "projectName": "MudBlazorApp.Client",
-      "projectPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Client\\MudBlazorApp.Client.csproj",
+      "projectPath": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\MudBlazorApp.Client.csproj",
       "packagesPath": "C:\\Users\\Simofatt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Client\\obj\\",
+      "outputPath": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Simofatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -13556,11 +13595,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj"
+            "C:\\Users\\Simofatt\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Simofatt\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj"
             },
-            "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Simofatt\\Architecture\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Simofatt\\Architecture\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -13578,6 +13617,10 @@
           "Blazored.FluentValidation": {
             "target": "Package",
             "version": "[2.1.0, )"
+          },
+          "Blazored.LocalStorage": {
+            "target": "Package",
+            "version": "[4.4.0, )"
           },
           "FluentValidation": {
             "target": "Package",

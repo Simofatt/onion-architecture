@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zKfOHC4xUbq4Xm65yxIsulalMz8GkT/jeSiQ8LKiJcbW9QWqa7Oanr/ojFjRNZBeMWuGvTa1Bus2tUtwKYwXDQ==",
+  "dgSpecHash": "K82VPo4p8CjF4d3iqba+KowGl0jyEK/MEztuk3Uv8a0tqeQUReNMo4usaIdaKz2QmwMXkjSsPkGLWb48IW9Piw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\Simofatt\\Architecture\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

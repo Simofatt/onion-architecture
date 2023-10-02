@@ -93,6 +93,17 @@
           }
         }
       },
+      "Blazored.LocalStorage/4.4.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.16"
+        },
+        "runtime": {
+          "lib/net6.0/Blazored.LocalStorage.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "FluentValidation/11.6.0": {
         "runtime": {
           "lib/net6.0/FluentValidation.dll": {
@@ -1988,6 +1999,7 @@
       "MudBlazorApp.Client/1.0.0": {
         "dependencies": {
           "Blazored.FluentValidation": "2.1.0",
+          "Blazored.LocalStorage": "4.4.0",
           "Client.Infrastructure": "1.0.0",
           "FluentValidation": "11.6.0",
           "H.Recorders.WinmmRecorder": "0.20.8",
@@ -2004,11 +2016,8 @@
           "MudBlazorApp.Client.dll": {}
         },
         "resources": {
-          "en/MudBlazorApp.Client.resources.dll": {
-            "locale": "en"
-          },
-          "fr/MudBlazorApp.Client.resources.dll": {
-            "locale": "fr"
+          "es/MudBlazorApp.Client.resources.dll": {
+            "locale": "es"
           }
         }
       },
@@ -2063,6 +2072,13 @@
       "sha512": "sha512-R/s4xBjcRUv1voYeQRo84YZfgYgTkPdxi8ijLEHbPtbo2o4ywaUlOwk8fV68AUH63DtKGgx/oH7LNbZNHBHDcg==",
       "path": "blazored.fluentvalidation/2.1.0",
       "hashPath": "blazored.fluentvalidation.2.1.0.nupkg.sha512"
+    },
+    "Blazored.LocalStorage/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zuXZB4/WW3Pr1761peemffdkjt09lbOP1wAkSDTKl7BTbA9V5e8LxS6MNfmyHW+BJzXrNDq90E2Y+AfIfnIbWQ==",
+      "path": "blazored.localstorage/4.4.0",
+      "hashPath": "blazored.localstorage.4.4.0.nupkg.sha512"
     },
     "FluentValidation/11.6.0": {
       "type": "package",

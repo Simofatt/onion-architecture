@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "t0wulwGfl08KtuAi8+vk0Vbyhv5AiLJr3/9rkpRIU120PCThETeRcy8mbC8IHhmQRWcuoCUlbB6jnFpJC7Ajjg==",
+  "dgSpecHash": "55ZUQ/yeFDWLMiuYWo/QEluFYHeKyAAq4B8KO/ClycL24L0tf7533e9GYTOrqDHaxVWMQhDK74XIESrZnaM9JA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Server\\MudBlazorApp.Server.csproj",
+  "projectFilePath": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Server\\MudBlazorApp.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Simofatt\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Simofatt\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Simofatt\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Simofatt\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Simofatt\\.nuget\\packages\\blazored.fluentvalidation\\2.1.0\\blazored.fluentvalidation.2.1.0.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\blazored.localstorage\\4.4.0\\blazored.localstorage.4.4.0.nupkg.sha512",
     "C:\\Users\\Simofatt\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
     "C:\\Users\\Simofatt\\.nuget\\packages\\h.core\\0.20.8\\h.core.0.20.8.nupkg.sha512",
     "C:\\Users\\Simofatt\\.nuget\\packages\\h.recorders.winmmrecorder\\0.20.8\\h.recorders.winmmrecorder.0.20.8.nupkg.sha512",

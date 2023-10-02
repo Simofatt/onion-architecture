@@ -1,31 +1,31 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\eK0rqWEE.gz",
+      "Id": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\eK0rqWEE.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Client\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Client\\wwwroot\\css\\loader.css",
+      "Id": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\wwwroot\\css\\loader.css",
       "PackagePath": "staticwebassets\\css\\loader.css"
     },
     {
-      "Id": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Client\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Client\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Client\\wwwroot\\index.html",
+      "Id": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

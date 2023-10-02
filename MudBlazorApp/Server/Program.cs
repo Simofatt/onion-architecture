@@ -57,6 +57,7 @@ else
 app.UseHttpsRedirection();
 app.UseBlazorFrameworkFiles();
 app.UseStaticFiles();
+
 app.UseRouting();
 app.UseDeveloperExceptionPage();
 app.MapRazorPages();

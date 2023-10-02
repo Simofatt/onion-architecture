@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l89iVJQIUr8vfBdk/YbZFYpuJV6UmcXxUYZJwBW3g+PVKcd/Fn9aZe6FE1+EfZ5de8ss8piXyK6VSoQBLHCoQw==",
+  "dgSpecHash": "ZN2yN9Bufh+Bzon/O6qSBkn/Rd6xXhb+pyQ/aFs/tKEWFEf8p3q5nNAtN2yhmZ3VtcQqVXl0yTLlzRPWoW5aeA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj",
+  "projectFilePath": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Shared\\MudBlazorApp.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Simofatt\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
     "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.16\\microsoft.aspnetcore.authorization.6.0.16.nupkg.sha512",

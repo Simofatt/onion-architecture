@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wHgl6Ea/GDGLlmpaD7acfh7A05TG53nNIAACZj8mn0zNk7MeQ3fE0qz8krZaqZXVqE9Xhf0sE85h0MZYAa1d5A==",
+  "dgSpecHash": "FMrBM8b+6suDcDu05JcEHsldJSJ1/eAWymoNVMcfDGMJLBA43w2xnu0sdv0oSJXt8aHg9AdjGN1g8DRxyqeSIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Simofatt\\Desktop\\TEMPLATES\\OnionTemplate\\Architecture\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Simofatt\\Architecture\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Simofatt\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Simofatt\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

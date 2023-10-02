@@ -1,4 +1,6 @@
-﻿<MudGrid>
+﻿@using MudBlazorApp.Shared.Constant;
+
+<MudGrid>
     <MudItem xs="12" sm="4" md="3">
         <MudCard>
             <MudCardHeader>
@@ -61,4 +63,17 @@
             </MudCardActions>
         </MudCard>
     </MudItem>
+    <MudItem xs="12">
+
+        <MudSelect T="string" Label="@_l["Language"]" Value="_currentLanguage" ValueChanged="ChangeLanguage" Variant="Variant.Outlined" AnchorOrigin="Origin.BottomCenter">
+            @foreach (var lng in LanguageConstants.languages)
+            {
+                <MudSelectItem T="string" Value="lng.Code">@lng.DisplayName</MudSelectItem>
+            }
+
+        </MudSelect>
+    </MudItem>
+
+  
 </MudGrid>
+

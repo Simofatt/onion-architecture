@@ -7,6 +7,11 @@ using System.Threading.Tasks;
 using Blazored.FluentValidation;
 using Synaplic.UniRH.Client.Infrastructure.ApiClients;
 using System.Text.RegularExpressions;
+using System.Globalization;
+using Blazored.LocalStorage.StorageOptions;
+using Blazored.LocalStorage;
+using Microsoft.EntityFrameworkCore.ValueGeneration;
+using MudBlazorApp.Shared.Constant;
 
 namespace MudBlazorApp.Client.Pages.Identity
 {
@@ -21,7 +26,27 @@ namespace MudBlazorApp.Client.Pages.Identity
         public string JobTitle { get; set; } = "IT Consultant";
         public string Email { get; set; } = "Youcanprobably@findout.com";
         public bool FriendSwitch { get; set; } = true;
+        [Inject] ILocalStorageService LocalStorage { get; set; }
 
+         public string _currentLanguage { get; set; }
+
+
+        protected override async Task OnInitializedAsync()
+        {
+            _currentLanguage = CultureInfo.CurrentCulture.DisplayName;
+            
+            if(!string.IsNullOrEmpty(_currentLanguage) )
+            {
+                if(_currentLanguage.Replace(" ","").Equals("fr(FR)"))
+                {
+                    _currentLanguage = "Francais";
+                }else if (_currentLanguage.Replace(" ", "").Equals("es(ES)"))
+                {
+                    _currentLanguage = "Spanish"; 
+                }
+            }
+
+        }
         void SaveChanges(string message, Severity severity)
         {
             Snackbar.Add(message, severity, config =>
@@ -41,6 +66,36 @@ namespace MudBlazorApp.Client.Pages.Identity
             else
             {
                 return;
+            }
+        }
+
+
+
+     
+    /*   CultureInfo Culture
+        {
+            get => CultureInfo.CurrentCulture; 
+            set
+            {
+                if(CultureInfo.CurrentCulture !=value)
+                {
+
+                    LocalStorage.SetItemAsync<string>("culture",value);
+                     InvokeAsync(() => StateHasChanged());
+                    //_navigationManager.NavigateTo(_navigationManager.Uri, forceLoad: true);
+                }
+            }
+        }*/
+
+        public async Task ChangeLanguage(string value)
+        {
+
+            var currentCulture = CultureInfo.CurrentCulture;
+            if (!currentCulture.Equals(value))
+            {
+              await  LocalStorage.SetItemAsync<string>("culture", value);
+              await  InvokeAsync(() => StateHasChanged());
+               _navigationManager.NavigateTo(_navigationManager.Uri, forceLoad: true);
             }
         }
     }
