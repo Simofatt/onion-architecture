@@ -46,7 +46,7 @@ builder.Services.AddMudServices(config =>
     config.SnackbarConfiguration.SnackbarVariant = Variant.Filled;
 });
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
-//builder.Services.AddLocalization();
+
 builder.Services
                .AddLocalization(options =>
                {
@@ -59,7 +59,6 @@ builder.Services
                         new CultureInfo("en-EN"),
                         new CultureInfo("fr-FR")
                    };
-                   options.DefaultRequestCulture = new RequestCulture("fr-FR");
                    options.SupportedCultures = supportedCultures;
                    options.SupportedUICultures = supportedCultures;
                    // options.RequestCultureProviders.Remove((IRequestCultureProvider)typeof(AcceptLanguageHeaderRequestCultureProvider));     // i want the user to change their culture not via http headers

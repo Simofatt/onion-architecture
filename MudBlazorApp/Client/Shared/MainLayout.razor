@@ -1,6 +1,6 @@
 ﻿@inherits LayoutComponentBase
 
-<audio id="notification" src="/media/notification.mp3"/>
+
 <MudThemeProvider Theme="_currentTheme"/>
 <MudDialogProvider/>
 <MudSnackbarProvider/>
@@ -27,6 +27,7 @@
                 <MudHidden Breakpoint="Breakpoint.SmAndDown" Invert="true">
                     @*  <LanguageSelector />*@
                 </MudHidden>
+                <MudSwitch @bind-Checked="@isDarkMode" @onclick= "DarkMode" Label="Dark Mode" Color="Color.Primary" />
                 <MudMenu Direction="_rightToLeft ? Direction.Right : Direction.Left" OffsetX="true" Dense="true" Class="ml-4">
                     <ActivatorContent>
                         @if (string.IsNullOrEmpty(ImageDataUrl))

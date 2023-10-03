@@ -27,7 +27,7 @@ namespace MudBlazorApp.Client.Shared
         private MudTheme _currentTheme;
         private bool _drawerOpen = true;
         private bool _rightToLeft = false;
-
+        private bool isDarkMode ;
         private async Task RightToLeftToggle()
         {
        
@@ -40,6 +40,8 @@ namespace MudBlazorApp.Client.Shared
        
             _currentTheme = UniTheme.DefaultTheme;
             CascadingValue = "test";
+            isDarkMode = false;
+            await base.OnInitializedAsync();
 
         }
 
@@ -65,10 +67,18 @@ namespace MudBlazorApp.Client.Shared
 
         private async Task DarkMode()
         {
-            bool isDarkMode =false;
-            _currentTheme = isDarkMode
-                ? UniTheme.DefaultTheme
-                : UniTheme.DarkTheme;
+
+            isDarkMode = !isDarkMode;
+            if (!isDarkMode)
+            {
+                _currentTheme = UniTheme.DefaultTheme;
+            }
+            else if (isDarkMode)
+            {
+                _currentTheme = UniTheme.DarkTheme;
+            }
+            await InvokeAsync (()=> StateHasChanged());     
+        
         }
 
       

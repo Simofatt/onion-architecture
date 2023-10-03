@@ -104,6 +104,76 @@ namespace Synaplic.UniRH.Client.Infrastructure.Settings
             }
         };
 
+        private static Typography DarkTypography = new Typography()
+        {
+            Default = new Default()
+            {
+                FontFamily = new[] { "Roboto", "Arial", "sans-serif" },
+                FontSize = ".875rem",
+                FontWeight = 400,
+                LineHeight = 1.5,
+                LetterSpacing = ".01071em"
+            },
+            H1 = new H1()
+            {
+                FontFamily = new[] { "Roboto", "Arial", "sans-serif" },
+                FontSize = "2.5rem",
+                FontWeight = 600,
+                LineHeight = 1.2,
+                LetterSpacing = "-.01562em"
+            },
+            H2 = new H2()
+            {
+                FontFamily = new[] { "Roboto", "Arial", "sans-serif" },
+                FontSize = "2rem",
+                FontWeight = 600,
+                LineHeight = 1.25,
+                LetterSpacing = "-.00833em"
+            },
+            H3 = new H3()
+            {
+                FontFamily = new[] { "Roboto", "Arial", "sans-serif" },
+                FontSize = "1.75rem",
+                FontWeight = 600,
+                LineHeight = 1.3,
+                LetterSpacing = "0"
+            },
+            H4 = new H4()
+            {
+                FontFamily = new[] { "Roboto", "Arial", "sans-serif" },
+                FontSize = "1.5rem",
+                FontWeight = 600,
+                LineHeight = 1.35,
+                LetterSpacing = ".00735em"
+            },
+            H5 = new H5()
+            {
+                FontFamily = new[] { "Roboto", "Arial", "sans-serif" },
+                FontSize = "1.25rem",
+                FontWeight = 600,
+                LineHeight = 1.4,
+                LetterSpacing = "0"
+            },
+            H6 = new H6()
+            {
+                FontFamily = new[] { "Roboto", "Arial", "sans-serif" },
+                FontSize = "1rem",
+                FontWeight = 600,
+                LineHeight = 1.45,
+                LetterSpacing = ".0075em"
+            },
+            Button = new Button()
+            {
+                FontFamily = new[] { "Roboto", "Arial", "sans-serif" },
+                FontSize = ".875rem",
+                FontWeight = 600,
+                LineHeight = 1.75,
+                LetterSpacing = ".02857em"
+            },
+            // You can customize other typography settings as needed for dark mode.
+        };
+
+
         private static LayoutProperties DefaultLayoutProperties = new LayoutProperties()
         {
             DefaultBorderRadius = "3px"
@@ -129,25 +199,32 @@ namespace Synaplic.UniRH.Client.Infrastructure.Settings
         {
             Palette = new Palette()
             {
-                Primary = "#1E88E5",
-                Success = "#007E33",
-                Black = "#27272f",
-                Background = "#32333d",
-                BackgroundGrey = "#27272f",
-                Surface = "#373740",
-                DrawerBackground = "#27272f",
-                DrawerText = "rgba(255,255,255, 0.50)",
-                AppbarBackground = "#373740",
-                AppbarText = "rgba(255,255,255, 0.70)",
-                TextPrimary = "rgba(255,255,255, 0.70)",
-                TextSecondary = "rgba(255,255,255, 0.50)",
-                ActionDefault = "#adadb1",
-                ActionDisabled = "rgba(255,255,255, 0.26)",
-                ActionDisabledBackground = "rgba(255,255,255, 0.12)",
-                DrawerIcon = "rgba(255,255,255, 0.50)"
+                Primary = "#0000ff", // A deep blue color
+                Secondary = "#6C757D", // A muted gray color
+                Success = "#28A745", // A green color for success
+                Black = "#121212", // Dark background color
+                Background = "#1E1E1E", // Slightly lighter background
+                Surface = "#333333", // Cards and surfaces
+                DrawerBackground = "#121212", // Dark drawer background
+                DrawerText = "rgba(255, 255, 255, 0.7)", // Drawer text color
+                AppbarBackground = "#1E1E1E", // Appbar background
+                AppbarText = "rgba(255, 255, 255, 0.9)", // Appbar text color
+                TextPrimary = "rgba(255, 255, 255, 0.9)", // Primary text color
+                TextSecondary = "rgba(255, 255, 255, 0.7)", // Secondary text color
+                ActionDefault = "#6C757D", // Default action color
+                ActionDisabled = "rgba(255, 255, 255, 0.5)", // Disabled action color
+                ActionDisabledBackground = "rgba(255, 255, 255, 0.1)", // Disabled action background
+                DrawerIcon = "rgba(255, 255, 255, 0.7)", // Drawer icon color
+                PrimaryContrastText = "#FFFFFF",
+              
+
             },
+
+         
             Typography = DefaultTypography,
-            LayoutProperties = DefaultLayoutProperties
+            LayoutProperties = DefaultLayoutProperties,
+   
         };
+
     }
 }

@@ -12,6 +12,7 @@ using Blazored.LocalStorage.StorageOptions;
 using Blazored.LocalStorage;
 using Microsoft.EntityFrameworkCore.ValueGeneration;
 using MudBlazorApp.Shared.Constant;
+using Microsoft.IdentityModel.Tokens;
 
 namespace MudBlazorApp.Client.Pages.Identity
 {
@@ -26,7 +27,8 @@ namespace MudBlazorApp.Client.Pages.Identity
         public string JobTitle { get; set; } = "IT Consultant";
         public string Email { get; set; } = "Youcanprobably@findout.com";
         public bool FriendSwitch { get; set; } = true;
-        [Inject] ILocalStorageService LocalStorage { get; set; }
+        public bool _loaded { get; set; } = false;
+        
 
          public string _currentLanguage { get; set; }
 
@@ -43,9 +45,12 @@ namespace MudBlazorApp.Client.Pages.Identity
                 } else if (_currentLanguage.Replace(" ", "").Equals("en(EN)"))
                 {
                     _currentLanguage = _l["English"]; 
+                }else
+                {
+                    _currentLanguage = _l["English"];
                 }
             }
-
+            _loaded = true;
         }
         void SaveChanges(string message, Severity severity)
         {
@@ -72,14 +77,22 @@ namespace MudBlazorApp.Client.Pages.Identity
 
         public async Task ChangeLanguage(string value)
         {
-
-            var currentCulture = CultureInfo.CurrentCulture;
-            if (!currentCulture.Equals(value))
+            try
             {
-              await  LocalStorage.SetItemAsync<string>("culture", value);
-              await  InvokeAsync(() => StateHasChanged());
-               _navigationManager.NavigateTo(_navigationManager.Uri, forceLoad: true);
+                var currentCulture = await LocalStorage.GetItemAsync<string>("culture");
+                if (currentCulture != null && !currentCulture.Equals(value))
+                {
+                    await LocalStorage.SetItemAsync<string>("culture", value);
+                    await InvokeAsync(() => StateHasChanged());
+                    _navigationManager.NavigateTo(_navigationManager.Uri, forceLoad: true);
+                }
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+
+
         }
     }
 }
