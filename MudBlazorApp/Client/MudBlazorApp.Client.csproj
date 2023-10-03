@@ -42,7 +42,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Resources\Resource.es.resx">
+    <EmbeddedResource Update="Resources\Resource.fr.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Resources\Resource.resx">

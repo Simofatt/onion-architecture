@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "is0/F8SuuK7mxqedDqglxuWJRdkF5kAalgMa/+V8dmM=",
+  "Hash": "VpowHBCsJ55TNPuDtM8FPJ5UxfwhM58dY5uhWKUbViM=",
   "Source": "MudBlazorApp.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -323,23 +323,6 @@
       "OriginalItemSpec": "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.20\\runtimes\\browser-wasm\\native\\dotnet.wasm"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\es\\MudBlazorApp.Client.resources.dll",
-      "SourceId": "MudBlazorApp.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/es/MudBlazorApp.Client.resources.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Related",
-      "RelatedAsset": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazorApp.Client.dll",
-      "AssetTraitName": "Culture",
-      "AssetTraitValue": "es",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\obj\\Debug\\net6.0\\es\\MudBlazorApp.Client.resources.dll"
-    },
-    {
       "Identity": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\FluentValidation.dll",
       "SourceId": "MudBlazorApp.Client",
       "SourceType": "Computed",
@@ -355,6 +338,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Simofatt\\.nuget\\packages\\fluentvalidation\\11.6.0\\lib\\net6.0\\FluentValidation.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\fr\\MudBlazorApp.Client.resources.dll",
+      "SourceId": "MudBlazorApp.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/fr/MudBlazorApp.Client.resources.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Related",
+      "RelatedAsset": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazorApp.Client.dll",
+      "AssetTraitName": "Culture",
+      "AssetTraitValue": "fr",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\obj\\Debug\\net6.0\\fr\\MudBlazorApp.Client.resources.dll"
     },
     {
       "Identity": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\H.Core.dll",
@@ -6817,23 +6817,6 @@
       "OriginalItemSpec": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Json.dll"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\L2Be02NL.gz",
-      "SourceId": "MudBlazorApp.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/es/MudBlazorApp.Client.resources.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\es\\MudBlazorApp.Client.resources.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\es\\MudBlazorApp.Client.resources.dll"
-    },
-    {
       "Identity": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\L8f9BoR1.gz",
       "SourceId": "MudBlazorApp.Client",
       "SourceType": "Computed",
@@ -8277,6 +8260,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Xml.XPath.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\V2lhkkcS.gz",
+      "SourceId": "MudBlazorApp.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/fr/MudBlazorApp.Client.resources.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\fr\\MudBlazorApp.Client.resources.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\fr\\MudBlazorApp.Client.resources.dll"
     },
     {
       "Identity": "C:\\Users\\Simofatt\\Architecture\\MudBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\vc7IVjWN.gz",

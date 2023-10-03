@@ -56,7 +56,7 @@ builder.Services
                {
                    List<CultureInfo> supportedCultures = new List<CultureInfo>
                    {
-                        new CultureInfo("es-ES"),
+                        new CultureInfo("en-EN"),
                         new CultureInfo("fr-FR")
                    };
                    options.DefaultRequestCulture = new RequestCulture("fr-FR");

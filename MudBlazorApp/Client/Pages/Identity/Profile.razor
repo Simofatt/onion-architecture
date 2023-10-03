@@ -5,7 +5,7 @@
         <MudCard>
             <MudCardHeader>
                 <CardHeaderContent>
-                    <MudText>Public Profile</MudText>
+                    <MudText>@_l["Public Profile"]</MudText>
                 </CardHeaderContent>
             </MudCardHeader>
             <MudCardContent>
@@ -22,7 +22,7 @@
                 <MudText Align="Align.Center">@JobTitle</MudText>
             </MudCardContent>
             <MudCardActions Class="d-flex justify-center">
-                <MudButton OnClick="DeletePicture" Color="@AvatarButtonColor">@AvatarButtonText</MudButton>
+                <MudButton OnClick="DeletePicture" Color="@AvatarButtonColor">_l[@AvatarButtonText]</MudButton>
             </MudCardActions>
         </MudCard>
     </MudItem>
@@ -30,29 +30,29 @@
         <MudCard>
             <MudCardHeader>
                 <CardHeaderContent>
-                    <MudText>Profile Details</MudText>
+                    <MudText>@_l["Profile Details"]</MudText>
                 </CardHeaderContent>
             </MudCardHeader>
             <MudCardContent>
                 <MudGrid>
                     <MudItem xs="12" md="6">
-                        <MudTextField @bind-Value="FirstName" Label="First Name" Variant="Variant.Outlined" />
+                        <MudTextField @bind-Value="FirstName" Label="@_l["First Name"]" Variant="Variant.Outlined" />
                     </MudItem>
                     <MudItem xs="12" md="6">
-                        <MudTextField @bind-Value="LastName" Label="First Name" Variant="Variant.Outlined" />
+                        <MudTextField @bind-Value="LastName" Label="@_l["Last Name"]" Variant="Variant.Outlined" />
                     </MudItem>
                     <MudItem xs="12" md="6">
-                        <MudTextField @bind-Value="JobTitle" Label="Job Title" Variant="Variant.Outlined" />
+                        <MudTextField @bind-Value="JobTitle" Label="@_l["Job Title"]" Variant="Variant.Outlined" />
                     </MudItem>
                     <MudItem xs="12" md="6">
-                        <MudTextField @bind-Value="Email" Label="Email" Variant="Variant.Outlined" HelperText="Dont worry, we shall not spam!" InputType="InputType.Email" />
+                        <MudTextField @bind-Value="Email" Label="@_l["Email"]" Variant="Variant.Outlined" HelperText="Dont worry, we shall not spam!" InputType="InputType.Email" />
                     </MudItem>
                     <MudItem xs="12">
                         <MudText>
-                            <b>Visible Only To Friends</b>
+                            <b> @_l["Visible Only To Friends"]</b>
                         </MudText>
                         <MudText Typo="Typo.body2">
-                            Means that only your friends will be able to see your contact details.
+                            @_l["Means that only your friends will be able to see your contact details"].
                         </MudText>
                         <MudSwitch @bind-Checked="@FriendSwitch" Color="Color.Secondary" />
                     </MudItem>

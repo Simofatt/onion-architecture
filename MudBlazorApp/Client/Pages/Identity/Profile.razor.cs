@@ -37,12 +37,12 @@ namespace MudBlazorApp.Client.Pages.Identity
             
             if(!string.IsNullOrEmpty(_currentLanguage) )
             {
-                if(_currentLanguage.Replace(" ","").Equals("fr(FR)"))
+                if (_currentLanguage.Replace(" ", "").Equals("fr(FR)"))
                 {
-                    _currentLanguage = "Francais";
-                }else if (_currentLanguage.Replace(" ", "").Equals("es(ES)"))
+                    _currentLanguage = _l["Frensh"];
+                } else if (_currentLanguage.Replace(" ", "").Equals("en(EN)"))
                 {
-                    _currentLanguage = "Spanish"; 
+                    _currentLanguage = _l["English"]; 
                 }
             }
 
@@ -69,23 +69,6 @@ namespace MudBlazorApp.Client.Pages.Identity
             }
         }
 
-
-
-     
-    /*   CultureInfo Culture
-        {
-            get => CultureInfo.CurrentCulture; 
-            set
-            {
-                if(CultureInfo.CurrentCulture !=value)
-                {
-
-                    LocalStorage.SetItemAsync<string>("culture",value);
-                     InvokeAsync(() => StateHasChanged());
-                    //_navigationManager.NavigateTo(_navigationManager.Uri, forceLoad: true);
-                }
-            }
-        }*/
 
         public async Task ChangeLanguage(string value)
         {

@@ -412,4 +412,4 @@ C:\Users\Simofatt\Architecture\MudBlazorApp\Server\bin\Debug\net6.0\ICSharpCode.
 C:\Users\Simofatt\Architecture\MudBlazorApp\Server\bin\Debug\net6.0\Client.Infrastructure.dll
 C:\Users\Simofatt\Architecture\MudBlazorApp\Server\bin\Debug\net6.0\Client.Infrastructure.pdb
 C:\Users\Simofatt\Architecture\MudBlazorApp\Server\bin\Debug\net6.0\Blazored.LocalStorage.dll
-C:\Users\Simofatt\Architecture\MudBlazorApp\Server\bin\Debug\net6.0\es\MudBlazorApp.Client.resources.dll
+C:\Users\Simofatt\Architecture\MudBlazorApp\Server\bin\Debug\net6.0\fr\MudBlazorApp.Client.resources.dll

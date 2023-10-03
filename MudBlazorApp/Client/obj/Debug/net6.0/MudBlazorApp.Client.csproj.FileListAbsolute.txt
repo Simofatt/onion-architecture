@@ -2154,7 +2154,6 @@ C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\wwwroot\_fra
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.20.60tms21sf8.js
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.timezones.blat
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.wasm
-C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\es\MudBlazorApp.Client.resources.dll
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\FluentValidation.dll
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\H.Core.dll
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\H.Recorders.WinmmRecorder.dll
@@ -2536,7 +2535,6 @@ C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\wwwroot\_fra
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.dll.gz
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll.gz
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Text.Json.dll.gz
-C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\es\MudBlazorApp.Client.resources.dll.gz
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll.gz
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Formats.Asn1.dll.gz
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Metadata.dll.gz
@@ -2664,7 +2662,6 @@ C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\wwwroot\_fra
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\MudBlazorApp.Client.staticwebassets.runtime.json
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\MudBlazorApp.Client.dll
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\MudBlazorApp.Client.pdb
-C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\es\MudBlazorApp.Client.resources.dll
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\Azure.Core.dll
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\Azure.Identity.dll
@@ -2929,7 +2926,6 @@ C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\MudBlazorApp
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\MudBlazorApp.Client.AssemblyInfo.cs
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\MudBlazorApp.Client.csproj.CoreCompileInputs.cache
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\MudBlazorApp.Client.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\es\MudBlazorApp.Client.resources.dll
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\build-gz\IcuLhMP+.gz
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\build-gz\psMB8AuC.gz
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\build-gz\4yICFxX9.gz
@@ -3189,7 +3185,6 @@ C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\build-gz\OoH
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\build-gz\JRLFHcbV.gz
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\build-gz\LX8Pzt13.gz
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\build-gz\dN90eFOH.gz
-C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\build-gz\L2Be02NL.gz
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\build-gz\eK0rqWEE.gz
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\blazor.boot.json
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\staticwebassets\msbuild.MudBlazorApp.Client.Microsoft.AspNetCore.StaticWebAssets.props
@@ -3206,4 +3201,9 @@ C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\refint\MudBl
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\MudBlazorApp.Client.pdb
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\ref\MudBlazorApp.Client.dll
 C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\MudBlazorApp.Client.Resources.Resource.resources
-C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\MudBlazorApp.Client.Resources.Resource.es.resources
+C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\fr\MudBlazorApp.Client.resources.dll
+C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\fr\MudBlazorApp.Client.resources.dll.gz
+C:\Users\Simofatt\Architecture\MudBlazorApp\Client\bin\Debug\net6.0\fr\MudBlazorApp.Client.resources.dll
+C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\MudBlazorApp.Client.Resources.Resource.fr.resources
+C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\fr\MudBlazorApp.Client.resources.dll
+C:\Users\Simofatt\Architecture\MudBlazorApp\Client\obj\Debug\net6.0\build-gz\V2lhkkcS.gz

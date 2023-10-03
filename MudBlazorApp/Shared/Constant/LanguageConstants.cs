@@ -11,8 +11,8 @@ namespace MudBlazorApp.Shared.Constant
     {
        public static Languages[] languages = new Languages[] {
 
-         new Languages{Code = "fr-Fr" , DisplayName = "Francais" },
-         new Languages{Code = "es-ES" , DisplayName = "Espagnol" }
+         new Languages{Code = "fr-Fr" , DisplayName = "Frensh" },
+         new Languages{Code = "en-EN" , DisplayName = "English" }
         
         };
 
