@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{FE5DDB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MudBlazorApp.Shared", "MudBlazorApp\Shared\MudBlazorApp.Shared.csproj", "{AA2AF1ED-8044-4E8F-9BE3-18E26142F3B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.Infrastructure", "Client.Infrastructure\Client.Infrastructure.csproj", "{4607CEFC-D10A-4EF5-8B17-C6F3D0560869}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{AA2AF1ED-8044-4E8F-9BE3-18E26142F3B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA2AF1ED-8044-4E8F-9BE3-18E26142F3B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA2AF1ED-8044-4E8F-9BE3-18E26142F3B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4607CEFC-D10A-4EF5-8B17-C6F3D0560869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4607CEFC-D10A-4EF5-8B17-C6F3D0560869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4607CEFC-D10A-4EF5-8B17-C6F3D0560869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4607CEFC-D10A-4EF5-8B17-C6F3D0560869}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{88C2B05C-8073-4994-A2E7-F0DF66B11B9A} = {BC7C1D7B-EF97-4AF3-A2F5-7FD557201F72}
 		{2377B8C3-CB8F-4E49-8A7E-BC9BB65E0A13} = {BC7C1D7B-EF97-4AF3-A2F5-7FD557201F72}
 		{AA2AF1ED-8044-4E8F-9BE3-18E26142F3B3} = {FE5DDB6A-7F51-4EDB-91C4-E12EC82F2D7E}
+		{4607CEFC-D10A-4EF5-8B17-C6F3D0560869} = {8918C838-D375-4139-937A-DE986B6EE02C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8129539A-1B47-4D45-ADBC-87E433A5FD88}

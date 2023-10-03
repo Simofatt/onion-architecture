@@ -9,5 +9,21 @@
 @using MudBlazorApp.Client
 @using MudBlazorApp.Client.Shared
 @using MudBlazor
-@using MudBlazorApp.Shared
+@using MudBlazorApp.Shared 
 @using MudBlazorApp
+@using Synaplic.UniRH.Client;
+@using MudBlazorApp.Client.Shared.Dialogs ;
+@using Microsoft.Extensions.Localization;
+@using Blazored.LocalStorage; 
+@using MudBlazorApp.Client.Resources ;
+@using System.Text.RegularExpressions
+@using System.ComponentModel.DataAnnotations
+@using MudBlazor.Services
+
+@* @inject FrontEndLocalizer _l *@
+ 
+@inject ILocalStorageService LocalStorage ;
+@inject IDialogService _dialogService;
+@inject NavigationManager _navigationManager;
+@inject ISnackbar Snackbar
+@inject IStringLocalizer<Resource> _l ; 

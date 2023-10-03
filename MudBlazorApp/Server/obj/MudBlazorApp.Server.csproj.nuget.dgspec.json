@@ -82,6 +82,67 @@
         }
       }
     },
+    "C:\\Users\\Simofatt\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Simofatt\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj",
+        "projectName": "Client.Infrastructure",
+        "projectPath": "C:\\Users\\Simofatt\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Simofatt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Simofatt\\Architecture\\Client.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Simofatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Simofatt\\Architecture\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -250,6 +311,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\Simofatt\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Simofatt\\Architecture\\Client.Infrastructure\\Client.Infrastructure.csproj"
+              },
               "C:\\Users\\Simofatt\\Architecture\\Infrastructure\\Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\Simofatt\\Architecture\\Infrastructure\\Infrastructure.csproj"
               }
@@ -270,6 +334,10 @@
               "target": "Package",
               "version": "[2.1.0, )"
             },
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[11.6.0, )"
@@ -286,6 +354,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "ICSharpCode.Decompiler": {
+              "target": "Package",
+              "version": "[8.1.1.7464, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[6.0.15, )"
@@ -294,6 +366,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.15, )"
+            },
+            "Microsoft.AspNetCore.Localization": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.Extensions.Http": {
               "target": "Package",

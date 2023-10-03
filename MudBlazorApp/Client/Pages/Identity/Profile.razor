@@ -1,0 +1,83 @@
+﻿@using MudBlazorApp.Shared.Constant;
+
+
+<MudGrid>
+    <MudItem xs="12" sm="4" md="3">
+        <MudCard>
+            <MudCardHeader>
+                <CardHeaderContent>
+                    <MudText>@_l["Public Profile"]</MudText>
+                </CardHeaderContent>
+            </MudCardHeader>
+            <MudCardContent>
+                <div class="d-flex justify-center mb-4">
+                    <MudAvatar Image="@AvatarImageLink" Style="height:100px; width:100px;">
+                        @if (AvatarImageLink == null)
+                        {
+                            <MudIcon Icon="@AvatarIcon" Size="Size.Large"></MudIcon>
+                        }
+                    </MudAvatar>
+
+                </div>
+                <MudText Align="Align.Center">@FirstName @LastName</MudText>
+                <MudText Align="Align.Center">@JobTitle</MudText>
+            </MudCardContent>
+            <MudCardActions Class="d-flex justify-center">
+                <MudButton OnClick="DeletePicture" Color="@AvatarButtonColor">_l[@AvatarButtonText]</MudButton>
+            </MudCardActions>
+        </MudCard>
+    </MudItem>
+    <MudItem xs="12" sm="8" md="9">
+        <MudCard>
+            <MudCardHeader>
+                <CardHeaderContent>
+                    <MudText>@_l["Profile Details"]</MudText>
+                </CardHeaderContent>
+            </MudCardHeader>
+            <MudCardContent>
+                <MudGrid>
+                    <MudItem xs="12" md="6">
+                        <MudTextField @bind-Value="FirstName" Label="@_l["First Name"]" Variant="Variant.Outlined" />
+                    </MudItem>
+                    <MudItem xs="12" md="6">
+                        <MudTextField @bind-Value="LastName" Label="@_l["Last Name"]" Variant="Variant.Outlined" />
+                    </MudItem>
+                    <MudItem xs="12" md="6">
+                        <MudTextField @bind-Value="JobTitle" Label="@_l["Job Title"]" Variant="Variant.Outlined" />
+                    </MudItem>
+                    <MudItem xs="12" md="6">
+                        <MudTextField @bind-Value="Email" Label="@_l["Email"]" Variant="Variant.Outlined" HelperText="Dont worry, we shall not spam!" InputType="InputType.Email" />
+                    </MudItem>
+                    <MudItem xs="12">
+                        <MudText>
+                            <b> @_l["Visible Only To Friends"]</b>
+                        </MudText>
+                        <MudText Typo="Typo.body2">
+                            @_l["Means that only your friends will be able to see your contact details"].
+                        </MudText>
+                        <MudSwitch @bind-Checked="@FriendSwitch" Color="Color.Secondary" />
+                    </MudItem>
+                </MudGrid>
+            </MudCardContent>
+            <MudCardActions Class="pb-4 pl-4">
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto" @onclick="@(() => SaveChanges("Profile details saved", Severity.Success))">Save Changes</MudButton>
+            </MudCardActions>
+        </MudCard>
+    </MudItem>
+    <MudItem xs="12">
+
+        <MudSelect T="string" Label="@_l["Language"]" Value="_currentLanguage" ValueChanged="ChangeLanguage" Variant="Variant.Outlined" AnchorOrigin="Origin.BottomCenter">
+            @foreach (var lng in LanguageConstants.languages)
+            {
+                <MudSelectItem T="string" Value="lng.Code">@lng.DisplayName</MudSelectItem>
+            }
+
+        </MudSelect>
+    </MudItem>
+
+  
+</MudGrid>
+
+
+
+            

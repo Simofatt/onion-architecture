@@ -1,36 +1,82 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">BlazorApp</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-</div>
+﻿
 
-<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
-    <nav class="flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
-            </NavLink>
-        </div>
+
+<MudNavMenu Dense="true">
+
+    <MudListSubheader Class="py-1 px-2 my-1">@_l["Personal"]</MudListSubheader>
+    <MudNavLink Href="/account" Icon="@Icons.Material.Outlined.SupervisorAccount">
+        @_l["Account"]
+    </MudNavLink>
+
+    
+
+   
+    <MudNavLink Href="/audit-trails" Icon="@Icons.Material.Outlined.Security">
+    @_l["Changes Logs"]
+    </MudNavLink>
+   
+
+ 
+        <MudListSubheader Class="py-1 px-2 my-1">@_l["Environment"]</MudListSubheader>
+        <MudNavLink Href="/index" Icon="@Icons.Material.Outlined.Group">
+            @_l["Organigramme"]
+        </MudNavLink>
+
+    <MudNavLink Href="/index" Icon="@Icons.Material.Outlined.Group">
+                @_l["Employees"]
+            </MudNavLink>
+
+    <MudNavLink Href="/index" Icon="@Icons.Material.Filled.Business">
+                @_l["Companies"]
+            </MudNavLink>
        
+            <MudNavLink Href="/index" Icon="@Icons.Material.Filled.CalendarMonth">
+                @_l["Periods"]
+            </MudNavLink>
 
-    </nav>
-</div>
+    <MudNavLink Href="/index" Icon="@Icons.Material.Filled.ReceiptLong">
+            @_l["Payslips"]
+        </MudNavLink>
 
-@code {
-    private bool collapseNavMenu = true;
 
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+    <MudNavLink Href="/index" Icon="@Icons.Filled.Calculate">
+            @_l["Pay simulation"]
+        </MudNavLink>
 
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
-}
+    <MudNavLink Href="/index" Icon="@Icons.Filled.AutoAwesomeMotion">
+                @_l["Account type"]
+            </MudNavLink>
+    
+
+        <MudListSubheader Class="py-1 px-2 my-1">@_l["Settings"]</MudListSubheader>
+    <MudNavLink Href="/index" Icon="@Icons.Material.Filled.AppRegistration">
+            @_l["Pay variables"]
+        </MudNavLink>
+    <MudNavLink Href="/index" Icon="@Icons.Material.Filled.EventRepeat">
+            @_l["Periodicities"]
+        </MudNavLink>
+    <MudNavLink Href="/index" Icon="@Icons.Material.Filled.Assignment">
+            @_l["Reporting configuration"]
+        </MudNavLink>
+    <MudNavLink Href="/index" Icon="@Icons.Material.Outlined.Payments">
+           Pay plans
+        </MudNavLink>
+    <MudNavLink Href="/index" Icon="@Icons.Material.Outlined.Payments">
+           Pay book
+        </MudNavLink>
+    
+
+
+        <MudListSubheader Class="py-1 px-2 my-1">Admin</MudListSubheader>
+
+
+
+    <MudNavLink Href="/index" Icon="@Icons.Material.Outlined.Person">
+              Users
+            </MudNavLink>
+
+    <MudNavLink Href="/index" Icon="@Icons.Material.Outlined.Person">Roles</MudNavLink>
+   
+
+
+</MudNavMenu>
