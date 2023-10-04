@@ -1,2 +1,2 @@
 # onion-architecture
-Onion architecture for .NET Applications (wasm)
+Onion architecture Template for .NET Applications (wasm)
